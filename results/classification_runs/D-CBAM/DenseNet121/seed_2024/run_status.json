@@ -1,0 +1,8 @@
+{
+  "run_id": "F03_D_CBAM_seed2024",
+  "status": "SUCCESS",
+  "runtime_seconds": 1135.3084321022034,
+  "n_test_predictions": 624,
+  "test_auroc": 0.9635765943458252,
+  "test_accuracy": 0.8381410256410257
+}

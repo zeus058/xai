@@ -1,0 +1,61 @@
+{
+  "dataset_presence": {
+    "required": [
+      "gate46-development-only-cxr",
+      "gate7-test-seal",
+      "cxr-lung-masks"
+    ],
+    "found": {
+      "gate46-development-only-cxr": true,
+      "gate7-test-seal": true,
+      "cxr-lung-masks": true
+    },
+    "missing": []
+  },
+  "development_manifest": "/tmp/xai_locked_runtime/F12_R_MASK_seed2024/gate46_development_extracted/manifests/clean_development_only_manifest.csv",
+  "test_label_key": "/kaggle/input/datasets/hintrngia/gate7-test-seal/SEALED_test_label_key.csv",
+  "n_train": 4411,
+  "n_val": 779,
+  "n_test": 624,
+  "train_label_counts": {
+    "0": 1139,
+    "1": 3272
+  },
+  "val_label_counts": {
+    "0": 201,
+    "1": 578
+  },
+  "test_label_counts": {
+    "0": 234,
+    "1": 390
+  },
+  "image_map_size": 5840,
+  "train_image_coverage": {
+    "total": 4411,
+    "found": 4411,
+    "missing_count": 0,
+    "missing_first_20": []
+  },
+  "val_image_coverage": {
+    "total": 779,
+    "found": 779,
+    "missing_count": 0,
+    "missing_first_20": []
+  },
+  "test_image_coverage": {
+    "total": 624,
+    "found": 624,
+    "missing_count": 0,
+    "missing_first_20": []
+  },
+  "mask_map_size": 5814,
+  "canonical_mask_dir": "/tmp/xai_locked_runtime/F12_R_MASK_seed2024/lung_masks_canonical",
+  "mask_coverage_all_splits": {
+    "total": 5814,
+    "found": 5814,
+    "missing": [],
+    "missing_first_20": [],
+    "missing_count": 0
+  },
+  "runtime_extraction_dir": "/tmp/xai_locked_runtime/F12_R_MASK_seed2024"
+}

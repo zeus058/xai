@@ -1,0 +1,8 @@
+{
+  "run_id": "F07_R_CBAM_seed3407",
+  "status": "SUCCESS",
+  "runtime_seconds": 793.6049880981445,
+  "n_test_predictions": 624,
+  "test_auroc": 0.9572649572649573,
+  "test_accuracy": 0.844551282051282
+}

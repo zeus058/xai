@@ -1,0 +1,51 @@
+{
+  "run_id": "F02_D_CBAM_seed42",
+  "condition": "D-CBAM",
+  "architecture": "DenseNet121",
+  "seed": 42,
+  "use_cbam": true,
+  "use_mask_loss": false,
+  "config": {
+    "seeds": [
+      42
+    ],
+    "batch_size": 32,
+    "num_workers": 2,
+    "input_resolution": 256,
+    "models_to_train": [
+      "DenseNet121"
+    ],
+    "densenet_freeze_percent": 0.75,
+    "resnet_freeze_percent": 0.8,
+    "patience": 5,
+    "min_delta": 0.0001,
+    "skip_training_if_checkpoint_exists": false,
+    "stage1_epochs": 5,
+    "stage1_lr": 0.001,
+    "stage2_epochs": 25,
+    "stage2_lr": 0.0001,
+    "stage2_min_lr": 1e-06,
+    "weight_decay": 0.0001,
+    "mixed_precision": true,
+    "gradient_accumulation_steps": 1,
+    "gradient_clipping_max_norm": 1.0,
+    "apply_clahe": true,
+    "use_tta": true,
+    "explainability_methods": [
+      "Grad-CAM",
+      "Guided Grad-CAM"
+    ],
+    "loss_type": "Focal",
+    "focal_alpha": 0.25,
+    "focal_gamma": 2.0,
+    "use_cbam": true,
+    "use_mask_loss": false,
+    "mask_loss_weight": 0.1
+  },
+  "dataset_slugs": [
+    "gate46-development-only-cxr",
+    "gate7-test-seal",
+    "cxr-lung-masks"
+  ],
+  "protocol": "locked_final_battery_B"
+}

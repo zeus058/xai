@@ -1,0 +1,5 @@
+{
+  "threshold": 0.64208984375,
+  "source": "validation_youden",
+  "temperature": 0.8833150267601013
+}

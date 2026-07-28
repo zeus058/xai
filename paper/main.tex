@@ -215,6 +215,15 @@ regularizes attention toward lung fields but does not isolate CBAM and mask loss
 as separate causal components. Each clean configuration was trained with seeds
 3407, 42, and 2024.
 
+Figure~\ref{fig:locked-workflow} should be read as a separation of evidence
+streams. Development and tuning data determine training, checkpoint selection,
+and operating thresholds; the 624-image sealed test is then used only for locked
+prediction, calibration, and attribution analysis. C0 and P models share the same
+data partitions, seeds, and operating-point rule, so the reported effects are
+paired P-minus-C0 contrasts rather than cross-protocol comparisons. The XAI branch
+uses the same sealed-test sample and retained correct and incorrect predictions,
+preventing qualitative case selection from redefining the quantitative endpoint.
+
 \begin{figure}[H]
 \centering
 \begin{tikzpicture}[
@@ -255,15 +264,6 @@ reproducibility limits; scientific improvement claims compare matched C0 and P
 models on the sealed classification test and locked XAI sample.}
 \label{fig:locked-workflow}
 \end{figure}
-
-Figure~\ref{fig:locked-workflow} should be read as a separation of evidence
-streams. Development and tuning data determine training, checkpoint selection,
-and operating thresholds; the 624-image sealed test is then used only for locked
-prediction, calibration, and attribution analysis. C0 and P models share the same
-data partitions, seeds, and operating-point rule, so the reported effects are
-paired P-minus-C0 contrasts rather than cross-protocol comparisons. The XAI branch
-uses the same sealed-test sample and retained correct and incorrect predictions,
-preventing qualitative case selection from redefining the quantitative endpoint.
 
 \subsection{XAI and Metrics}
 
@@ -508,6 +508,15 @@ occurred in seed 3407.}
 \label{fig:xai-qualitative-densenet}
 \end{figure}
 
+\subsection{Component Ablation Analysis}
+To isolate the contributions of the feature gating mechanism and the auxiliary localization loss, we evaluated models with CBAM alone, models with the mask loss alone, and the full proposed configuration ($P$). For both DenseNet121 and ResNet50, adding only the CBAM module without mask supervision decreased AUROC compared to the baseline $C_0$ (DenseNet121 delta $-0.0014$, 95\% CI $[-0.0042, 0.0016]$; ResNet50 delta $-0.0062$, 95\% CI $[-0.0117, -0.0007]$). Utilizing the mask loss without CBAM gating yielded performance comparable to $C_0$. However, combining both components into the full proposed model ($P$) achieved the highest AUROC across all configurations, demonstrating a strong synergistic effect (Figure~\ref{fig:ablation-auroc-deltas}). The full $P$ model consistently outperformed the isolated components on major threshold-free metrics, including classification F1 scores.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.72\textwidth,keepaspectratio]{figures/component_ablation_delta_ci_auroc.png}
+\caption{Component ablation differences in AUROC for DenseNet121 and ResNet50 (95\% CI). The proposed model ($P$) combining both CBAM and mask loss shows synergistic improvements.}
+\label{fig:ablation-auroc-deltas}
+\end{figure}
 \section{Discussion}
 
 \subsection{Principal Findings}

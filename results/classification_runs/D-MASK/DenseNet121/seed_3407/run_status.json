@@ -1,0 +1,8 @@
+{
+  "run_id": "F04_D_MASK_seed3407",
+  "status": "SUCCESS",
+  "runtime_seconds": 2054.3920545578003,
+  "n_test_predictions": 624,
+  "test_auroc": 0.9779804952881875,
+  "test_accuracy": 0.8381410256410257
+}

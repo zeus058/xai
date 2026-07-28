@@ -55,10 +55,17 @@ class CBAM(nn.Module):
         return self.output_node(x_out), spatial_att
 
 class ClassificationModel(nn.Module):
-    def __init__(self, architecture: str, freeze_percent: float, use_cbam: bool = False):
+    def __init__(
+        self,
+        architecture: str,
+        freeze_percent: float,
+        use_cbam: bool = False,
+        use_aux_attention: bool = False,
+    ):
         super().__init__()
         self.architecture = architecture
         self.use_cbam = use_cbam
+        self.use_aux_attention = use_aux_attention
         
         if architecture == "DenseNet121":
             # Load pretrained weights
@@ -67,6 +74,8 @@ class ClassificationModel(nn.Module):
             
             if self.use_cbam:
                 self.cbam = CBAM(in_features)
+            elif self.use_aux_attention:
+                self.mask_attention = SpatialAttention()
                 
             # Replace classifier head for binary classification
             self.backbone.classifier = nn.Sequential(
@@ -81,6 +90,8 @@ class ClassificationModel(nn.Module):
             
             if self.use_cbam:
                 self.cbam = CBAM(in_features)
+            elif self.use_aux_attention:
+                self.mask_attention = SpatialAttention()
                 
             # Replace classifier head
             self.backbone.fc = nn.Sequential(
@@ -98,6 +109,8 @@ class ClassificationModel(nn.Module):
             spatial_att = None
             if self.use_cbam:
                 features, spatial_att = self.cbam(features)
+            elif self.use_aux_attention:
+                spatial_att = self.mask_attention(features)
                 
             out = F.adaptive_avg_pool2d(features, (1, 1))
             out = torch.flatten(out, 1)
@@ -117,6 +130,8 @@ class ClassificationModel(nn.Module):
             spatial_att = None
             if self.use_cbam:
                 features, spatial_att = self.cbam(features)
+            elif self.use_aux_attention:
+                spatial_att = self.mask_attention(features)
                 
             out = self.backbone.avgpool(features)
             out = torch.flatten(out, 1)

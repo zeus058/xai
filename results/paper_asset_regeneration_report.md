@@ -1,0 +1,22 @@
+# Paper Asset Regeneration Report
+
+Generated UTC: 2026-07-27T15:17:15.504850+00:00
+
+This report was generated from locked final artifacts only. It does not require raw images, masks, checkpoints, GPU access, or Kaggle credentials.
+
+## Regenerated Paper Figures
+
+- `paper/figures/classification_p_minus_c0_delta_ci.png`
+- `paper/figures/xai_p_minus_c0_localization_delta_ci.png`
+
+## Verified Evidence Inputs
+
+- `results/locked_final/classification_statistics/classification_summary_table.csv`: 976 bytes, sha256 `908937526033b8fdbd23d88cd383cab9d95def926ad724e8c2465cd96a3abd83`
+- `results/locked_final/classification_statistics/paired_delta_bootstrap_ci.csv`: 4136 bytes, sha256 `4e8cc38980412c6fd9bdd997f6bd2b4151bf6efcb4e0ed6eb2d4ff45393f5ade`
+- `results/locked_final/xai_runs/aggregate/xai_summary_table.csv`: 655 bytes, sha256 `998bc16cfcf7d12598f72e4b3a3bfd3c687f1dabca0fba72ebfd2ad155f37d81`
+- `results/locked_final/xai_runs/aggregate/xai_p_minus_c0_paired_delta_ci.csv`: 5313 bytes, sha256 `3f196e00cf68ac24228a5319d124cb01794c5758112e413732593dde39f8933d`
+- `paper/figures/classification_p_minus_c0_delta_ci.png`: 128495 bytes, sha256 `94d5cc8b03209f505cfd5fef49376b74b8b54cbd9442c6135fd9315ed36db044`
+- `paper/figures/xai_p_minus_c0_localization_delta_ci.png`: 119102 bytes, sha256 `e68820349fd7759f968237f5a434f8b255828e23eb81176ad302130a0c3c704d`
+- `paper/figures/xai_qualitative_densenet_guided_cases.png`: 4301904 bytes, sha256 `65ff893a023ba9a612734399cc6c398ee71064a6e35a9920eba7bac93b9e416f`
+- `results/locked_final/retained_artifact_manifest.csv`: 38409 bytes, sha256 `97e1a6102058ae0d6ffb4f04f383068768e86fb3210107f62ada4b5bf42a94d6`
+- `results/locked_final/paper_evidence_audit.md`: 15237 bytes, sha256 `40318ac4f04c52d94c427ab737daa75274dfdd0385703caa0395836918a20189`

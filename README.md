@@ -65,6 +65,37 @@ Run the Kaggle notebooks in this order:
 Dataset requirements and exact notebook outputs are documented in
 `notebooks/kaggle/README.md`.
 
+## Regenerate Paper Evidence Assets
+
+After the locked Kaggle outputs are present, regenerate the paper-ready figures
+and SHA-256 evidence manifests with:
+
+```bash
+python tools/regenerate_paper_assets.py
+```
+
+This CPU-only command reads from `results/locked_final/` and writes:
+
+- `paper/figures/classification_p_minus_c0_delta_ci.png`
+- `paper/figures/xai_p_minus_c0_localization_delta_ci.png`
+- `results/locked_final/paper_asset_manifest.csv`
+- `results/locked_final/paper_asset_manifest.json`
+- `results/locked_final/paper_asset_regeneration_report.md`
+
+## Component Ablation Extension
+
+The locked final paper evidence compares C0 against the full proposed
+configuration. To support component-level claims, run the additional Kaggle
+notebooks:
+
+- `notebooks/kaggle/KAGGLE_F01` through `KAGGLE_F12` for CBAM-only and
+  mask-loss-only matched runs.
+- `notebooks/kaggle/KAGGLE_G01_component_ablation_statistics.ipynb` after B01-B12
+  and F01-F12 outputs are available.
+
+The ablation separates four components per backbone and seed: C0, CBAM-only,
+mask-loss-only, and CBAM plus mask loss.
+
 ## GitHub Hygiene
 
 Do not commit raw CXR data, lung-mask files, checkpoint weights, Kaggle staging

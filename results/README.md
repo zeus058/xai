@@ -1,27 +1,92 @@
-# Results Layout
+# Locked Final Rerun Artifacts
 
-Use `locked_final/` as the source of truth for the manuscript.
+This directory is the canonical evidence bundle for the manuscript.
 
-## `locked_final/`
+The retained artifact checksum manifest is:
 
-Validated outputs from the locked Kaggle rerun protocol:
+- `retained_artifact_manifest.csv`
 
-- `reference_reproduction/`: original-paper reproduction attempt, per-seed
-  predictions, metrics, logs, and audit summaries.
-- `classification_runs/`: 12 locked C0/P classification runs across two
-  backbones and three seeds. Checkpoint weights are intentionally excluded from
-  this clean GitHub package; metrics, predictions, logs, configs, and audits are
-  retained.
-- `classification_statistics/`: classification summary tables, paired deltas,
-  bootstrap confidence intervals, McNemar tests, and validation summary.
-- `xai_manifest/`: deterministic 128-case balanced XAI sample manifest from C00.
-- `xai_runs/`: E01-E04 XAI metric outputs plus E05 aggregate statistics.
-  Per-case rendered PNG panels were removed from the clean package; manuscript
-  figures are retained in `paper/figures/`.
-- `paper_evidence_audit.md`: final source-to-paper consistency audit.
+## Reproduction
 
-## Excluded Files
+Source kernel:
 
-Large raw data, model weights, Kaggle dataset staging folders, archives,
-development-only evidence, legacy local artifacts, and QA preview renders are
-excluded from this cleaned repository workspace.
+- `hintrngia/kagglea01`
+
+Purpose:
+
+- Reproduce the reference-paper-style DenseNet121/ResNet50 baseline under the
+  available public data constraints.
+- Document that the original paper did not fully disclose random seeds and split
+  construction, so exact reproduction is not guaranteed.
+
+## Classification Battery
+
+Source kernels:
+
+- `hintrngia/kaggleb01` through `hintrngia/kaggleb12`
+
+Conditions:
+
+- `D-C0`: DenseNet121 control
+- `D-P`: DenseNet121 proposed
+- `R-C0`: ResNet50 control
+- `R-P`: ResNet50 proposed
+
+Seeds:
+
+- `3407`
+- `42`
+- `2024`
+
+Each run retains configs, environment metadata, dataset audits, training history,
+thresholds, calibration outputs, sealed-test predictions, confusion matrix, and
+test metrics. Checkpoint `.pt` files are excluded from the cleaned GitHub package.
+
+## Statistical Evidence
+
+Source kernel:
+
+- `KAGGLE_D01_statistical_validation.ipynb`
+
+Canonical paper tables:
+
+- `classification_statistics/classification_summary_table.csv`
+- `classification_statistics/paired_delta_bootstrap_ci.csv`
+- `classification_statistics/classification_delta_table.csv`
+- `classification_statistics/classification_statistics_summary.md`
+
+## XAI Manifest
+
+Source kernel:
+
+- `hintrngia/kagglec00`
+
+Canonical manifest:
+
+- `xai_manifest/xai_sample_manifest_128.csv`
+
+Validation:
+
+- 128 rows
+- 64 normal and 64 pneumonia cases
+- SHA-256:
+  `ab1f02d26d2cc7f0db86d25f8f05bf87e9069be48c4a33ea04e7a580911ebbef`
+- 624/624 sealed-test cases had both image and mask available
+
+## XAI Battery
+
+Source kernels:
+
+- `hintrngia/xaie01`
+- `hintrngia/xaie02`
+- `hintrngia/xaie03`
+- `hintrngia/xaie04`
+
+Aggregate evidence:
+
+- `xai_runs/aggregate/xai_summary_table.csv`
+- `xai_runs/aggregate/xai_p_minus_c0_paired_delta_ci.csv`
+
+Per-case rendered PNG panels are excluded from the cleaned GitHub package. The
+manuscript figure is kept under
+`paper/figures/xai_qualitative_densenet_guided_cases.png`.

@@ -1,0 +1,41 @@
+architecture,comparison,candidate_component,reference_component,seed,reference_only_correct,candidate_only_correct,n_discordant,exact_mcnemar_p,note
+DenseNet121,CBAM-only minus C0,CBAM-only,C0,3407,7,18,25,0.043285250663757324,
+DenseNet121,CBAM-only minus C0,CBAM-only,C0,42,13,18,31,0.47312965989112854,
+DenseNet121,CBAM-only minus C0,CBAM-only,C0,2024,8,15,23,0.21003961563110352,
+DenseNet121,CBAM-only minus C0,CBAM-only,C0,pooled_seed_runs,28,51,79,0.012812402175831373,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.
+DenseNet121,mask-loss-only minus C0,mask-loss-only,C0,3407,10,7,17,0.629058837890625,
+DenseNet121,mask-loss-only minus C0,mask-loss-only,C0,42,11,14,25,0.6900379657745361,
+DenseNet121,mask-loss-only minus C0,mask-loss-only,C0,2024,24,7,31,0.003326892852783203,
+DenseNet121,mask-loss-only minus C0,mask-loss-only,C0,pooled_seed_runs,45,28,73,0.060370037339928545,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.
+DenseNet121,CBAM+mask-loss minus C0,CBAM+mask-loss,C0,3407,10,11,21,1.0,
+DenseNet121,CBAM+mask-loss minus C0,CBAM+mask-loss,C0,42,6,21,27,0.005924612283706665,
+DenseNet121,CBAM+mask-loss minus C0,CBAM+mask-loss,C0,2024,8,11,19,0.6476058959960938,
+DenseNet121,CBAM+mask-loss minus C0,CBAM+mask-loss,C0,pooled_seed_runs,24,43,67,0.027119992403126333,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.
+DenseNet121,CBAM+mask-loss minus CBAM-only,CBAM+mask-loss,CBAM-only,3407,17,7,24,0.06391465663909912,
+DenseNet121,CBAM+mask-loss minus CBAM-only,CBAM+mask-loss,CBAM-only,42,8,18,26,0.07551869750022888,
+DenseNet121,CBAM+mask-loss minus CBAM-only,CBAM+mask-loss,CBAM-only,2024,14,10,24,0.5412561893463135,
+DenseNet121,CBAM+mask-loss minus CBAM-only,CBAM+mask-loss,CBAM-only,pooled_seed_runs,39,35,74,0.7275470834894697,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.
+DenseNet121,CBAM+mask-loss minus mask-loss-only,CBAM+mask-loss,mask-loss-only,3407,11,15,26,0.557197093963623,
+DenseNet121,CBAM+mask-loss minus mask-loss-only,CBAM+mask-loss,mask-loss-only,42,6,18,24,0.022655844688415527,
+DenseNet121,CBAM+mask-loss minus mask-loss-only,CBAM+mask-loss,mask-loss-only,2024,7,27,34,0.0008213953115046024,
+DenseNet121,CBAM+mask-loss minus mask-loss-only,CBAM+mask-loss,mask-loss-only,pooled_seed_runs,24,60,84,0.00010714768358467152,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.
+ResNet50,CBAM-only minus C0,CBAM-only,C0,3407,25,8,33,0.004551384132355452,
+ResNet50,CBAM-only minus C0,CBAM-only,C0,42,3,60,63,9.048317650695026e-15,
+ResNet50,CBAM-only minus C0,CBAM-only,C0,2024,6,24,30,0.0014309063553810122,
+ResNet50,CBAM-only minus C0,CBAM-only,C0,pooled_seed_runs,34,92,126,2.364920722052491e-07,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.
+ResNet50,mask-loss-only minus C0,mask-loss-only,C0,3407,12,8,20,0.5034446716308594,
+ResNet50,mask-loss-only minus C0,mask-loss-only,C0,42,6,29,35,0.0001168418675661087,
+ResNet50,mask-loss-only minus C0,mask-loss-only,C0,2024,8,24,32,0.0070003666914999485,
+ResNet50,mask-loss-only minus C0,mask-loss-only,C0,pooled_seed_runs,26,61,87,0.0002236893560948182,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.
+ResNet50,CBAM+mask-loss minus C0,CBAM+mask-loss,C0,3407,15,14,29,1.0,
+ResNet50,CBAM+mask-loss minus C0,CBAM+mask-loss,C0,42,13,21,34,0.22948101302608848,
+ResNet50,CBAM+mask-loss minus C0,CBAM+mask-loss,C0,2024,4,21,25,0.0009105205535888672,
+ResNet50,CBAM+mask-loss minus C0,CBAM+mask-loss,C0,pooled_seed_runs,32,56,88,0.013750385738502912,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.
+ResNet50,CBAM+mask-loss minus CBAM-only,CBAM+mask-loss,CBAM-only,3407,5,21,26,0.002493917942047119,
+ResNet50,CBAM+mask-loss minus CBAM-only,CBAM+mask-loss,CBAM-only,42,51,2,53,3.1796787425264483e-13,
+ResNet50,CBAM+mask-loss minus CBAM-only,CBAM+mask-loss,CBAM-only,2024,9,8,17,1.0,
+ResNet50,CBAM+mask-loss minus CBAM-only,CBAM+mask-loss,CBAM-only,pooled_seed_runs,65,31,96,0.0006747185703333388,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.
+ResNet50,CBAM+mask-loss minus mask-loss-only,CBAM+mask-loss,mask-loss-only,3407,12,15,27,0.7011080384254456,
+ResNet50,CBAM+mask-loss minus mask-loss-only,CBAM+mask-loss,mask-loss-only,42,28,13,41,0.027533155829587486,
+ResNet50,CBAM+mask-loss minus mask-loss-only,CBAM+mask-loss,mask-loss-only,2024,10,11,21,1.0,
+ResNet50,CBAM+mask-loss minus mask-loss-only,CBAM+mask-loss,mask-loss-only,pooled_seed_runs,50,39,89,0.28909608069606096,Pooled over seed-runs; interpret cautiously because the same test images are reused across seeds.

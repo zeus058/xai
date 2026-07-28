@@ -1,0 +1,112 @@
+[{"stream_name":"stderr","time":8.663682437,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.663780194,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.663786405,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.663790082,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.307151171,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.307201613,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.307208527,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.307213151,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.285948727,"data":"Output directory: /kaggle/working/locked_outputs/component_ablation_statistics\n"}
+,{"stream_name":"stdout","time":13.847977884,"data":"{\n"}
+,{"stream_name":"stdout","time":13.848030679,"data":"  \"B03_D_C0_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-C0/DenseNet121/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848040408,"data":"  \"B01_D_C0_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-C0/DenseNet121/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848045594,"data":"  \"B02_D_C0_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-C0/DenseNet121/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848050422,"data":"  \"F03_D_CBAM_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-CBAM/DenseNet121/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848055543,"data":"  \"F01_D_CBAM_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-CBAM/DenseNet121/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848060193,"data":"  \"F02_D_CBAM_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-CBAM/DenseNet121/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848064822,"data":"  \"F06_D_MASK_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-MASK/DenseNet121/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848069537,"data":"  \"F04_D_MASK_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-MASK/DenseNet121/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.84807425,"data":"  \"F05_D_MASK_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-MASK/DenseNet121/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848078999,"data":"  \"B06_D_P_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-P/DenseNet121/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848085323,"data":"  \"B04_D_P_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-P/DenseNet121/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848093837,"data":"  \"B05_D_P_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-P/DenseNet121/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848097809,"data":"  \"B09_R_C0_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-C0/ResNet50/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848134354,"data":"  \"B07_R_C0_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-C0/ResNet50/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848141535,"data":"  \"B08_R_C0_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-C0/ResNet50/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848145664,"data":"  \"F09_R_CBAM_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-CBAM/ResNet50/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848149405000001,"data":"  \"F07_R_CBAM_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-CBAM/ResNet50/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848153224,"data":"  \"F08_R_CBAM_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-CBAM/ResNet50/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.84815686,"data":"  \"F12_R_MASK_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-MASK/ResNet50/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.84816056,"data":"  \"F10_R_MASK_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-MASK/ResNet50/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848164335,"data":"  \"F11_R_MASK_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-MASK/ResNet50/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848168165,"data":"  \"B12_R_P_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-P/ResNet50/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848171859,"data":"  \"B10_R_P_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-P/ResNet50/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":13.848175621,"data":"  \"B11_R_P_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-P/ResNet50/seed_42/test_predictions.csv\"\n"}
+,{"stream_name":"stdout","time":13.848179392,"data":"}\n"}
+,{"stream_name":"stdout","time":2122.333219521,"data":"{\n"}
+,{"stream_name":"stdout","time":2122.33327886,"data":"  \"notebook\": \"KAGGLE_G01_component_ablation_statistics.ipynb\",\n"}
+,{"stream_name":"stdout","time":2122.333287111,"data":"  \"purpose\": \"Matched component ablation over C0, CBAM-only, mask-loss-only, and CBAM+mask-loss.\",\n"}
+,{"stream_name":"stdout","time":2122.333292441,"data":"  \"n_runs\": 24,\n"}
+,{"stream_name":"stdout","time":2122.333297445,"data":"  \"n_test_per_run\": 624,\n"}
+,{"stream_name":"stdout","time":2122.333301984,"data":"  \"n_seeds_per_component\": 3,\n"}
+,{"stream_name":"stdout","time":2122.333306033,"data":"  \"bootstrap_n\": 5000,\n"}
+,{"stream_name":"stdout","time":2122.333310048,"data":"  \"bootstrap_seed\": 3407,\n"}
+,{"stream_name":"stdout","time":2122.333314723,"data":"  \"ci_level\": 0.95,\n"}
+,{"stream_name":"stdout","time":2122.333319651,"data":"  \"components\": [\n"}
+,{"stream_name":"stdout","time":2122.333323891,"data":"    \"C0\",\n"}
+,{"stream_name":"stdout","time":2122.333327887,"data":"    \"CBAM-only\",\n"}
+,{"stream_name":"stdout","time":2122.333332361,"data":"    \"mask-loss-only\",\n"}
+,{"stream_name":"stdout","time":2122.333336495,"data":"    \"CBAM+mask-loss\"\n"}
+,{"stream_name":"stdout","time":2122.333340762,"data":"  ],\n"}
+,{"stream_name":"stdout","time":2122.333344954,"data":"  \"ablation_definition\": {\n"}
+,{"stream_name":"stdout","time":2122.33334947,"data":"    \"C0\": \"No CBAM and no mask-guided auxiliary loss.\",\n"}
+,{"stream_name":"stdout","time":2122.333362629,"data":"    \"CBAM-only\": \"CBAM feature gating enabled; no mask-guided auxiliary loss.\",\n"}
+,{"stream_name":"stdout","time":2122.333366751,"data":"    \"mask-loss-only\": \"Auxiliary spatial-attention head receives mask loss; features are not gated by CBAM.\",\n"}
+,{"stream_name":"stdout","time":2122.333370868,"data":"    \"CBAM+mask-loss\": \"CBAM feature gating enabled and CBAM spatial map receives mask-guided auxiliary loss.\"\n"}
+,{"stream_name":"stdout","time":2122.333374716,"data":"  },\n"}
+,{"stream_name":"stdout","time":2122.333377993,"data":"  \"outputs\": [\n"}
+,{"stream_name":"stdout","time":2122.333381457,"data":"    \"component_ablation_by_run_metrics.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333385103,"data":"    \"component_ablation_delta_ci_auroc.png\",\n"}
+,{"stream_name":"stdout","time":2122.333388591,"data":"    \"component_ablation_delta_ci_f1.png\",\n"}
+,{"stream_name":"stdout","time":2122.333392144,"data":"    \"component_ablation_input_validation.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333396258,"data":"    \"component_ablation_mcnemar_tests.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333400298,"data":"    \"component_ablation_pairwise_delta_ci.csv\",\n"}
+,{"stream_name":"stdout","time":2122.33340397,"data":"    \"component_ablation_summary_table.csv\"\n"}
+,{"stream_name":"stdout","time":2122.333407618,"data":"  ],\n"}
+,{"stream_name":"stdout","time":2122.333410957,"data":"  \"source_paths\": {\n"}
+,{"stream_name":"stdout","time":2122.333414557,"data":"    \"B03_D_C0_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-C0/DenseNet121/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333419003,"data":"    \"B01_D_C0_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-C0/DenseNet121/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333423322,"data":"    \"B02_D_C0_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-C0/DenseNet121/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333427523,"data":"    \"F03_D_CBAM_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-CBAM/DenseNet121/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333431639,"data":"    \"F01_D_CBAM_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-CBAM/DenseNet121/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333435729,"data":"    \"F02_D_CBAM_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-CBAM/DenseNet121/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333441613,"data":"    \"F06_D_MASK_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-MASK/DenseNet121/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333445853,"data":"    \"F04_D_MASK_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-MASK/DenseNet121/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.33345011,"data":"    \"F05_D_MASK_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-MASK/DenseNet121/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333454125,"data":"    \"B06_D_P_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-P/DenseNet121/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333458076,"data":"    \"B04_D_P_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-P/DenseNet121/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333462162,"data":"    \"B05_D_P_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/D-P/DenseNet121/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333470081,"data":"    \"B09_R_C0_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-C0/ResNet50/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333474362,"data":"    \"B07_R_C0_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-C0/ResNet50/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333478339,"data":"    \"B08_R_C0_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-C0/ResNet50/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333482333,"data":"    \"F09_R_CBAM_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-CBAM/ResNet50/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333486255,"data":"    \"F07_R_CBAM_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-CBAM/ResNet50/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333490186,"data":"    \"F08_R_CBAM_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-CBAM/ResNet50/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333494171,"data":"    \"F12_R_MASK_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-MASK/ResNet50/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333498189,"data":"    \"F10_R_MASK_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-MASK/ResNet50/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333502122,"data":"    \"F11_R_MASK_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-MASK/ResNet50/seed_42/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333506621,"data":"    \"B12_R_P_seed2024\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-P/ResNet50/seed_2024/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.333510718,"data":"    \"B10_R_P_seed3407\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-P/ResNet50/seed_3407/test_predictions.csv\",\n"}
+,{"stream_name":"stdout","time":2122.33351479,"data":"    \"B11_R_P_seed42\": \"/kaggle/input/datasets/hintrngia/component-ablation-locked-runs/R-P/ResNet50/seed_42/test_predictions.csv\"\n"}
+,{"stream_name":"stdout","time":2122.333518723,"data":"  },\n"}
+,{"stream_name":"stdout","time":2122.333522106,"data":"  \"environment\": {\n"}
+,{"stream_name":"stdout","time":2122.333525828,"data":"    \"python\": \"3.12.13\",\n"}
+,{"stream_name":"stdout","time":2122.333529832,"data":"    \"platform\": \"Linux-6.12.90+-x86_64-with-glibc2.35\",\n"}
+,{"stream_name":"stdout","time":2122.333533372,"data":"    \"numpy\": \"2.0.2\",\n"}
+,{"stream_name":"stdout","time":2122.333536843,"data":"    \"pandas\": \"2.3.3\"\n"}
+,{"stream_name":"stdout","time":2122.333540365,"data":"  },\n"}
+,{"stream_name":"stdout","time":2122.333543703,"data":"  \"paper_claim_rule\": [\n"}
+,{"stream_name":"stdout","time":2122.333547194,"data":"    \"Only claim a component contribution when candidate-minus-reference paired 95% CI excludes zero in the beneficial direction.\",\n"}
+,{"stream_name":"stdout","time":2122.33355108,"data":"    \"If CBAM-only or mask-loss-only is weaker than CBAM+mask-loss, describe the proposed method as a combined configuration unless interaction is explicitly supported.\",\n"}
+,{"stream_name":"stdout","time":2122.333555208,"data":"    \"Classification ablation does not establish lesion localization or clinical utility.\"\n"}
+,{"stream_name":"stdout","time":2122.333559013,"data":"  ]\n"}
+,{"stream_name":"stdout","time":2122.333565556,"data":"}\n"}
+,{"stream_name":"stderr","time":2125.019510006,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2125.019550957,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2125.184714512,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2125.184753813,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2125.800455739,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":2126.097162665,"data":"[NbConvertApp] Writing 145321 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":2128.38576461,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2129.260677445,"data":"[NbConvertApp] Writing 442612 bytes to __results__.html\n"}
+]

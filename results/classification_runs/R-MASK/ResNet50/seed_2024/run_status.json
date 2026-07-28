@@ -1,0 +1,8 @@
+{
+  "run_id": "F12_R_MASK_seed2024",
+  "status": "SUCCESS",
+  "runtime_seconds": 1176.2791373729706,
+  "n_test_predictions": 624,
+  "test_auroc": 0.9698772737234275,
+  "test_accuracy": 0.8717948717948718
+}

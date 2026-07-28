@@ -630,6 +630,7 @@ try:
         ARCHITECTURE,
         freeze_percent=config.densenet_freeze_percent if ARCHITECTURE == "DenseNet121" else config.resnet_freeze_percent,
         use_cbam=config.use_cbam,
+        use_aux_attention=(config.use_mask_loss and not config.use_cbam),
     )
     class_weights = get_class_weights(train_df)
     model, history_df, training_summary = train_with_history(model, train_loader, val_loader, device, config, SEED, class_weights=class_weights)
