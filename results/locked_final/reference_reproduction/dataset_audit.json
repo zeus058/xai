@@ -1,0 +1,7 @@
+{
+  "development_manifest": "/kaggle/working/gate46_development_extracted/manifests/clean_development_only_manifest.csv",
+  "test_label_key": "/kaggle/input/datasets/hintrngia/gate7-test-seal/SEALED_test_label_key.csv",
+  "n_train": 4411,
+  "n_val": 779,
+  "n_test": 624
+}

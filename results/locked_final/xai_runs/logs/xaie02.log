@@ -1,0 +1,180 @@
+[{"stream_name":"stderr","time":5.971220443,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":5.971322302,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":5.971326917,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":5.971329462,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.523346919,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.523386136,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.523391483,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.523395203,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.535175715,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/7.8 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[91m━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.5/7.8 MB\u001b[0m \u001b[31m14.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.4/7.8 MB\u001b[0m \u001b[31m64.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m7.8/7.8 MB\u001b[0m \u001b[31m94.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.8/7.8 MB\u001b[0m \u001b[31m61.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":14.452497222,"data":"\u001b[?25h  Installing build dependencies ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":14.655624268,"data":"  Getting requirements to build wheel ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":14.859165964,"data":"  Preparing metadata (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":15.36531303,"data":"  Building wheel for grad-cam (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":33.832593725,"data":"{\n"}
+,{"stream_name":"stdout","time":33.832662162,"data":"  \"xai_id\": \"E02_XAI_D_P_DenseNet121\",\n"}
+,{"stream_name":"stdout","time":33.832802412,"data":"  \"condition\": \"D-P\",\n"}
+,{"stream_name":"stdout","time":33.832810427,"data":"  \"architecture\": \"DenseNet121\",\n"}
+,{"stream_name":"stdout","time":33.832815319,"data":"  \"use_cbam\": true,\n"}
+,{"stream_name":"stdout","time":33.832819805,"data":"  \"seeds\": [\n"}
+,{"stream_name":"stdout","time":33.832824222,"data":"    3407,\n"}
+,{"stream_name":"stdout","time":33.832828578,"data":"    42,\n"}
+,{"stream_name":"stdout","time":33.832833773,"data":"    2024\n"}
+,{"stream_name":"stdout","time":33.832842994,"data":"  ],\n"}
+,{"stream_name":"stdout","time":33.83284856,"data":"  \"out_dir\": \"/kaggle/working/locked_outputs/xai_battery/E02_XAI_D_P_DenseNet121\"\n"}
+,{"stream_name":"stdout","time":33.832864848,"data":"}\n"}
+,{"stream_name":"stdout","time":36.216311726,"data":"{\n"}
+,{"stream_name":"stdout","time":36.216352473,"data":"  \"manifest_path\": \"/kaggle/input/datasets/hintrngia/locked-xai-manifest-c00/xai_sample_manifest_128.csv\",\n"}
+,{"stream_name":"stdout","time":36.216356636,"data":"  \"n_manifest_rows\": 128,\n"}
+,{"stream_name":"stdout","time":36.216359125,"data":"  \"class_counts\": {\n"}
+,{"stream_name":"stdout","time":36.216361502,"data":"    \"0\": 64,\n"}
+,{"stream_name":"stdout","time":36.216363874,"data":"    \"1\": 64\n"}
+,{"stream_name":"stdout","time":36.216366146,"data":"  },\n"}
+,{"stream_name":"stdout","time":36.216368601,"data":"  \"n_indexed_images\": 624,\n"}
+,{"stream_name":"stdout","time":36.216371119,"data":"  \"n_indexed_masks\": 5814,\n"}
+,{"stream_name":"stdout","time":36.216386006,"data":"  \"missing_images\": 0,\n"}
+,{"stream_name":"stdout","time":36.216390104,"data":"  \"missing_masks\": 0\n"}
+,{"stream_name":"stdout","time":36.216394151,"data":"}\n"}
+,{"stream_name":"stdout","time":37.239252482,"data":"[E02_XAI_D_P_DenseNet121] seed=3407 checkpoint=/kaggle/input/datasets/hintrngia/locked-densenet-xai-inputs/D-P/DenseNet121/seed_3407/best_checkpoint.pt threshold=0.58251953125\n"}
+,{"stream_name":"stderr","time":39.188803936,"data":"/tmp/ipykernel_23/2906265753.py:140: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.\n"}
+,{"stream_name":"stderr","time":39.188850397,"data":"  return float(np.trapz(del_probs, x)), float(np.trapz(ins_probs, x))\n"}
+,{"stream_name":"stderr","time":39.188856035,"data":"\n"}
+,{"stream_name":"stderr","time":39.188859812,"data":"/tmp/ipykernel_23/2906265753.py:140: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.\n"}
+,{"stream_name":"stderr","time":39.188864088,"data":"  return float(np.trapz(del_probs, x)), float(np.trapz(ins_probs, x))\n"}
+,{"stream_name":"stdout","time":66.20709637,"data":"[E02_XAI_D_P_DenseNet121] seed=3407 processed 16/128\n"}
+,{"stream_name":"stdout","time":88.633359978,"data":"[E02_XAI_D_P_DenseNet121] seed=3407 processed 32/128\n"}
+,{"stream_name":"stdout","time":111.297252576,"data":"[E02_XAI_D_P_DenseNet121] seed=3407 processed 48/128\n"}
+,{"stream_name":"stdout","time":133.727308498,"data":"[E02_XAI_D_P_DenseNet121] seed=3407 processed 64/128\n"}
+,{"stream_name":"stdout","time":155.805475183,"data":"[E02_XAI_D_P_DenseNet121] seed=3407 processed 80/128\n"}
+,{"stream_name":"stdout","time":177.741722686,"data":"[E02_XAI_D_P_DenseNet121] seed=3407 processed 96/128\n"}
+,{"stream_name":"stdout","time":199.84725897,"data":"[E02_XAI_D_P_DenseNet121] seed=3407 processed 112/128\n"}
+,{"stream_name":"stdout","time":221.647510946,"data":"[E02_XAI_D_P_DenseNet121] seed=3407 processed 128/128\n"}
+,{"stream_name":"stdout","time":221.647559208,"data":"{\n"}
+,{"stream_name":"stdout","time":221.647563755,"data":"  \"xai_id\": \"E02_XAI_D_P_DenseNet121\",\n"}
+,{"stream_name":"stdout","time":221.647567111,"data":"  \"condition\": \"D-P\",\n"}
+,{"stream_name":"stdout","time":221.647570279,"data":"  \"architecture\": \"DenseNet121\",\n"}
+,{"stream_name":"stdout","time":221.647573606,"data":"  \"seed\": 3407,\n"}
+,{"stream_name":"stdout","time":221.647576578,"data":"  \"n_samples\": 128,\n"}
+,{"stream_name":"stdout","time":221.647603861,"data":"  \"accuracy_on_xai_sample\": 0.8515625,\n"}
+,{"stream_name":"stdout","time":221.647609416,"data":"  \"gcam_lrr_plus_mean\": 0.7698268982614261,\n"}
+,{"stream_name":"stdout","time":221.647630011,"data":"  \"guided_gcam_lrr_plus_mean\": 0.7703102168722351,\n"}
+,{"stream_name":"stdout","time":221.647634083,"data":"  \"gcam_pointing_inside_lung_mean\": 0.9921875,\n"}
+,{"stream_name":"stdout","time":221.647637571,"data":"  \"guided_gcam_pointing_inside_lung_mean\": 0.9375,\n"}
+,{"stream_name":"stdout","time":221.647640997,"data":"  \"gcam_deletion_auc_mean\": 0.7450076956212313,\n"}
+,{"stream_name":"stdout","time":221.647644381,"data":"  \"guided_gcam_deletion_auc_mean\": 0.7323396584817132,\n"}
+,{"stream_name":"stdout","time":221.647647901,"data":"  \"gcam_insertion_auc_mean\": 0.8240215831680235,\n"}
+,{"stream_name":"stdout","time":221.647651391,"data":"  \"guided_gcam_insertion_auc_mean\": 0.8473009859572223,\n"}
+,{"stream_name":"stdout","time":221.647656753,"data":"  \"gcam_head_randomization_corr_mean\": 0.42996918808310397,\n"}
+,{"stream_name":"stdout","time":221.647663271,"data":"  \"guided_gcam_head_randomization_corr_mean\": 0.4784511198631592,\n"}
+,{"stream_name":"stdout","time":221.647665651,"data":"  \"runtime_seconds\": 184.43614888191223\n"}
+,{"stream_name":"stdout","time":221.647667988,"data":"}\n"}
+,{"stream_name":"stdout","time":223.965652304,"data":"[E02_XAI_D_P_DenseNet121] seed=42 checkpoint=/kaggle/input/datasets/hintrngia/locked-densenet-xai-inputs/D-P/DenseNet121/seed_42/best_checkpoint.pt threshold=0.5634765625\n"}
+,{"stream_name":"stdout","time":251.488951566,"data":"[E02_XAI_D_P_DenseNet121] seed=42 processed 16/128\n"}
+,{"stream_name":"stdout","time":273.701292291,"data":"[E02_XAI_D_P_DenseNet121] seed=42 processed 32/128\n"}
+,{"stream_name":"stdout","time":295.747302071,"data":"[E02_XAI_D_P_DenseNet121] seed=42 processed 48/128\n"}
+,{"stream_name":"stdout","time":318.015587599,"data":"[E02_XAI_D_P_DenseNet121] seed=42 processed 64/128\n"}
+,{"stream_name":"stderr","time":337.09484928,"data":"/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide\n"}
+,{"stream_name":"stderr","time":337.094903547,"data":"  c /= stddev[:, None]\n"}
+,{"stream_name":"stderr","time":337.09491013,"data":"/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide\n"}
+,{"stream_name":"stderr","time":337.094914988,"data":"  c /= stddev[None, :]\n"}
+,{"stream_name":"stderr","time":337.094919166,"data":"\n"}
+,{"stream_name":"stderr","time":337.094923423,"data":"/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2922: RuntimeWarning: invalid value encountered in divide\n"}
+,{"stream_name":"stderr","time":337.094927801,"data":"  c /= stddev[:, None]\n"}
+,{"stream_name":"stderr","time":337.094931989,"data":"/usr/local/lib/python3.12/dist-packages/numpy/lib/_function_base_impl.py:2923: RuntimeWarning: invalid value encountered in divide\n"}
+,{"stream_name":"stderr","time":337.094936249,"data":"  c /= stddev[None, :]\n"}
+,{"stream_name":"stdout","time":339.801687629,"data":"[E02_XAI_D_P_DenseNet121] seed=42 processed 80/128\n"}
+,{"stream_name":"stdout","time":361.630308518,"data":"[E02_XAI_D_P_DenseNet121] seed=42 processed 96/128\n"}
+,{"stream_name":"stdout","time":383.614011011,"data":"[E02_XAI_D_P_DenseNet121] seed=42 processed 112/128\n"}
+,{"stream_name":"stdout","time":404.868845253,"data":"[E02_XAI_D_P_DenseNet121] seed=42 processed 128/128\n"}
+,{"stream_name":"stdout","time":404.868900049,"data":"{\n"}
+,{"stream_name":"stdout","time":404.868905212,"data":"  \"xai_id\": \"E02_XAI_D_P_DenseNet121\",\n"}
+,{"stream_name":"stdout","time":404.868908573,"data":"  \"condition\": \"D-P\",\n"}
+,{"stream_name":"stdout","time":404.868911767,"data":"  \"architecture\": \"DenseNet121\",\n"}
+,{"stream_name":"stdout","time":404.86892291,"data":"  \"seed\": 42,\n"}
+,{"stream_name":"stdout","time":404.86892544,"data":"  \"n_samples\": 128,\n"}
+,{"stream_name":"stdout","time":404.868927684,"data":"  \"accuracy_on_xai_sample\": 0.859375,\n"}
+,{"stream_name":"stdout","time":404.86892998,"data":"  \"gcam_lrr_plus_mean\": 0.756966478125573,\n"}
+,{"stream_name":"stdout","time":404.868945537,"data":"  \"guided_gcam_lrr_plus_mean\": 0.7848313575793714,\n"}
+,{"stream_name":"stdout","time":404.868949937,"data":"  \"gcam_pointing_inside_lung_mean\": 0.9921875,\n"}
+,{"stream_name":"stdout","time":404.868953942,"data":"  \"guided_gcam_pointing_inside_lung_mean\": 0.984375,\n"}
+,{"stream_name":"stdout","time":404.868957291,"data":"  \"gcam_deletion_auc_mean\": 0.7689389565934572,\n"}
+,{"stream_name":"stdout","time":404.86896115,"data":"  \"guided_gcam_deletion_auc_mean\": 0.7425897311628564,\n"}
+,{"stream_name":"stdout","time":404.868965277,"data":"  \"gcam_insertion_auc_mean\": 0.8279170792676716,\n"}
+,{"stream_name":"stdout","time":404.868969098,"data":"  \"guided_gcam_insertion_auc_mean\": 0.8664476167828021,\n"}
+,{"stream_name":"stdout","time":404.868972532,"data":"  \"gcam_head_randomization_corr_mean\": 0.4655593218629694,\n"}
+,{"stream_name":"stdout","time":404.868976081,"data":"  \"guided_gcam_head_randomization_corr_mean\": 0.5278779980942018,\n"}
+,{"stream_name":"stdout","time":404.868979634,"data":"  \"runtime_seconds\": 180.92724919319153\n"}
+,{"stream_name":"stdout","time":404.868983157,"data":"}\n"}
+,{"stream_name":"stdout","time":408.888563464,"data":"[E02_XAI_D_P_DenseNet121] seed=2024 checkpoint=/kaggle/input/datasets/hintrngia/locked-densenet-xai-inputs/D-P/DenseNet121/seed_2024/best_checkpoint.pt threshold=0.52392578125\n"}
+,{"stream_name":"stdout","time":435.778686811,"data":"[E02_XAI_D_P_DenseNet121] seed=2024 processed 16/128\n"}
+,{"stream_name":"stdout","time":457.348458624,"data":"[E02_XAI_D_P_DenseNet121] seed=2024 processed 32/128\n"}
+,{"stream_name":"stdout","time":478.902301645,"data":"[E02_XAI_D_P_DenseNet121] seed=2024 processed 48/128\n"}
+,{"stream_name":"stdout","time":500.470245106,"data":"[E02_XAI_D_P_DenseNet121] seed=2024 processed 64/128\n"}
+,{"stream_name":"stdout","time":522.060323061,"data":"[E02_XAI_D_P_DenseNet121] seed=2024 processed 80/128\n"}
+,{"stream_name":"stdout","time":543.403300941,"data":"[E02_XAI_D_P_DenseNet121] seed=2024 processed 96/128\n"}
+,{"stream_name":"stdout","time":564.899597464,"data":"[E02_XAI_D_P_DenseNet121] seed=2024 processed 112/128\n"}
+,{"stream_name":"stdout","time":586.064138692,"data":"[E02_XAI_D_P_DenseNet121] seed=2024 processed 128/128\n"}
+,{"stream_name":"stdout","time":586.064216592,"data":"{\n"}
+,{"stream_name":"stdout","time":586.064226229,"data":"  \"xai_id\": \"E02_XAI_D_P_DenseNet121\",\n"}
+,{"stream_name":"stdout","time":586.064232144,"data":"  \"condition\": \"D-P\",\n"}
+,{"stream_name":"stdout","time":586.064236832,"data":"  \"architecture\": \"DenseNet121\",\n"}
+,{"stream_name":"stdout","time":586.064241476,"data":"  \"seed\": 2024,\n"}
+,{"stream_name":"stdout","time":586.064245837,"data":"  \"n_samples\": 128,\n"}
+,{"stream_name":"stdout","time":586.064250564,"data":"  \"accuracy_on_xai_sample\": 0.8203125,\n"}
+,{"stream_name":"stdout","time":586.064255198,"data":"  \"gcam_lrr_plus_mean\": 0.798841908301111,\n"}
+,{"stream_name":"stdout","time":586.064265181,"data":"  \"guided_gcam_lrr_plus_mean\": 0.8384662493846262,\n"}
+,{"stream_name":"stdout","time":586.064268756,"data":"  \"gcam_pointing_inside_lung_mean\": 1.0,\n"}
+,{"stream_name":"stdout","time":586.064271734,"data":"  \"guided_gcam_pointing_inside_lung_mean\": 0.984375,\n"}
+,{"stream_name":"stdout","time":586.06428253,"data":"  \"gcam_deletion_auc_mean\": 0.7936067671755975,\n"}
+,{"stream_name":"stdout","time":586.064285068,"data":"  \"guided_gcam_deletion_auc_mean\": 0.7600314928291133,\n"}
+,{"stream_name":"stdout","time":586.064287421,"data":"  \"gcam_insertion_auc_mean\": 0.856637817502907,\n"}
+,{"stream_name":"stdout","time":586.064289712,"data":"  \"guided_gcam_insertion_auc_mean\": 0.8777003997098091,\n"}
+,{"stream_name":"stdout","time":586.064292021,"data":"  \"gcam_head_randomization_corr_mean\": 0.5024722047764041,\n"}
+,{"stream_name":"stdout","time":586.064294457,"data":"  \"guided_gcam_head_randomization_corr_mean\": 0.556404528090007,\n"}
+,{"stream_name":"stdout","time":586.064310542,"data":"  \"runtime_seconds\": 177.35854744911194\n"}
+,{"stream_name":"stdout","time":586.064314606,"data":"}\n"}
+,{"stream_name":"stdout","time":586.064318354,"data":"{\n"}
+,{"stream_name":"stdout","time":586.064321874,"data":"  \"xai_id\": \"E02_XAI_D_P_DenseNet121\",\n"}
+,{"stream_name":"stdout","time":586.064326064,"data":"  \"condition\": \"D-P\",\n"}
+,{"stream_name":"stdout","time":586.064330122,"data":"  \"architecture\": \"DenseNet121\",\n"}
+,{"stream_name":"stdout","time":586.064333619,"data":"  \"use_cbam\": true,\n"}
+,{"stream_name":"stdout","time":586.064336991,"data":"  \"seeds\": [\n"}
+,{"stream_name":"stdout","time":586.06434039,"data":"    3407,\n"}
+,{"stream_name":"stdout","time":586.064343588,"data":"    42,\n"}
+,{"stream_name":"stdout","time":586.064346844,"data":"    2024\n"}
+,{"stream_name":"stdout","time":586.064350167,"data":"  ],\n"}
+,{"stream_name":"stdout","time":586.064353397,"data":"  \"n_expected_rows\": 384,\n"}
+,{"stream_name":"stdout","time":586.064356834,"data":"  \"n_output_rows\": 384,\n"}
+,{"stream_name":"stdout","time":586.064360257,"data":"  \"n_manifest_rows\": 128,\n"}
+,{"stream_name":"stdout","time":586.064363657,"data":"  \"manifest_path\": \"/kaggle/input/datasets/hintrngia/locked-xai-manifest-c00/xai_sample_manifest_128.csv\",\n"}
+,{"stream_name":"stdout","time":586.064367393,"data":"  \"di_steps\": 8,\n"}
+,{"stream_name":"stdout","time":586.064370787,"data":"  \"max_figures_per_seed\": 8,\n"}
+,{"stream_name":"stdout","time":586.064379112,"data":"  \"stability_enabled\": true,\n"}
+,{"stream_name":"stdout","time":586.064382117,"data":"  \"randomization_enabled\": true,\n"}
+,{"stream_name":"stdout","time":586.064384347,"data":"  \"input_validation_passed\": true,\n"}
+,{"stream_name":"stdout","time":586.064386568,"data":"  \"environment\": {\n"}
+,{"stream_name":"stdout","time":586.064388756,"data":"    \"python\": \"3.12.13\",\n"}
+,{"stream_name":"stdout","time":586.064391046,"data":"    \"platform\": \"Linux-6.12.90+-x86_64-with-glibc2.35\",\n"}
+,{"stream_name":"stdout","time":586.064393901,"data":"    \"torch\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":586.064415072,"data":"    \"cuda_available\": true,\n"}
+,{"stream_name":"stdout","time":586.064419353,"data":"    \"cuda_device\": \"Tesla T4\"\n"}
+,{"stream_name":"stdout","time":586.064423426,"data":"  },\n"}
+,{"stream_name":"stdout","time":586.064427039,"data":"  \"outputs\": [\n"}
+,{"stream_name":"stdout","time":586.064430362,"data":"    \"input_audit.json\",\n"}
+,{"stream_name":"stdout","time":586.064433772,"data":"    \"xai_metrics_by_image.csv\",\n"}
+,{"stream_name":"stdout","time":586.064437111,"data":"    \"xai_metrics_by_image_partial.csv\",\n"}
+,{"stream_name":"stdout","time":586.064440512,"data":"    \"xai_metrics_seed_2024.csv\",\n"}
+,{"stream_name":"stdout","time":586.064448506,"data":"    \"xai_metrics_seed_3407.csv\",\n"}
+,{"stream_name":"stdout","time":586.064455541,"data":"    \"xai_metrics_seed_42.csv\",\n"}
+,{"stream_name":"stdout","time":586.064458988,"data":"    \"xai_summary_by_seed.csv\"\n"}
+,{"stream_name":"stdout","time":586.064462461,"data":"  ]\n"}
+,{"stream_name":"stdout","time":586.064466682,"data":"}\n"}
+,{"stream_name":"stderr","time":591.377989578,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":591.378044803,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":591.519524896,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":591.519556493,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":592.085231064,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":592.378457277,"data":"[NbConvertApp] Writing 46077 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":594.621649684,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":595.494524184,"data":"[NbConvertApp] Writing 418816 bytes to __results__.html\n"}
+]

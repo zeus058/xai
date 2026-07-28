@@ -1,0 +1,3 @@
+architecture,n_runs,accuracy_mean,accuracy_sd,accuracy_reference,accuracy_diff,accuracy_within_tolerance,auroc_mean,auroc_sd,auroc_reference,auroc_diff,auroc_within_tolerance,overall_pass
+DenseNet121,3,0.8125,0.023278588215278794,0.891,-0.07850000000000001,False,0.9545620571261598,0.016497705967262685,0.98,-0.025437942873840158,False,False
+ResNet50,3,0.8151709401709403,0.014541300842752349,0.844,-0.0288290598290597,False,0.9548542625465704,0.010895179666136985,0.95,0.004854262546570398,True,False

@@ -1,0 +1,9 @@
+architecture,seed,comparison,c0_only_correct,p_only_correct,n_discordant,exact_mcnemar_p,note
+DenseNet121,3407,D-P minus D-C0,10,11,21,1.0,
+DenseNet121,42,D-P minus D-C0,6,21,27,0.005924612283706665,
+DenseNet121,2024,D-P minus D-C0,8,11,19,0.6476058959960938,
+DenseNet121,pooled_seed_runs,D-P minus D-C0,24,43,67,0.027119992403126333,Pooled over seed-runs; interpret with caution because the same test images are reused across seeds.
+ResNet50,3407,R-P minus R-C0,15,14,29,1.0,
+ResNet50,42,R-P minus R-C0,13,21,34,0.22948101302608848,
+ResNet50,2024,R-P minus R-C0,4,21,25,0.0009105205535888672,
+ResNet50,pooled_seed_runs,R-P minus R-C0,32,56,88,0.013750385738502912,Pooled over seed-runs; interpret with caution because the same test images are reused across seeds.

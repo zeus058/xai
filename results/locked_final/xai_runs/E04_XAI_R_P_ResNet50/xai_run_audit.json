@@ -1,0 +1,36 @@
+{
+  "xai_id": "E04_XAI_R_P_ResNet50",
+  "condition": "R-P",
+  "architecture": "ResNet50",
+  "use_cbam": true,
+  "seeds": [
+    3407,
+    42,
+    2024
+  ],
+  "n_expected_rows": 384,
+  "n_output_rows": 384,
+  "n_manifest_rows": 128,
+  "manifest_path": "/kaggle/input/datasets/hintrngia/locked-xai-manifest-c00/xai_sample_manifest_128.csv",
+  "di_steps": 8,
+  "max_figures_per_seed": 8,
+  "stability_enabled": true,
+  "randomization_enabled": true,
+  "input_validation_passed": true,
+  "environment": {
+    "python": "3.12.13",
+    "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+    "torch": "2.10.0+cu128",
+    "cuda_available": true,
+    "cuda_device": "Tesla T4"
+  },
+  "outputs": [
+    "input_audit.json",
+    "xai_metrics_by_image.csv",
+    "xai_metrics_by_image_partial.csv",
+    "xai_metrics_seed_2024.csv",
+    "xai_metrics_seed_3407.csv",
+    "xai_metrics_seed_42.csv",
+    "xai_summary_by_seed.csv"
+  ]
+}

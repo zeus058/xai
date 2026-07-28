@@ -1,0 +1,12 @@
+{
+  "manifest_path": "/kaggle/input/datasets/hintrngia/locked-xai-manifest-c00/xai_sample_manifest_128.csv",
+  "n_manifest_rows": 128,
+  "class_counts": {
+    "0": 64,
+    "1": 64
+  },
+  "n_indexed_images": 624,
+  "n_indexed_masks": 5814,
+  "missing_images": 0,
+  "missing_masks": 0
+}

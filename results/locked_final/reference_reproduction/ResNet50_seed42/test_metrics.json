@@ -1,0 +1,23 @@
+{
+  "n": 624,
+  "n_normal": 234,
+  "n_pneumonia": 390,
+  "auroc": 0.9433815472277012,
+  "auprc": 0.9469076682065668,
+  "accuracy": 0.8173076923076923,
+  "balanced_accuracy": 0.7572649572649572,
+  "sensitivity": 0.9974358974358974,
+  "specificity": 0.5170940170940171,
+  "precision": 0.7749003984063745,
+  "f1": 0.8721973094170403,
+  "brier": 0.1807328007004683,
+  "threshold": 0.72,
+  "tn": 121,
+  "fp": 113,
+  "fn": 1,
+  "tp": 389,
+  "architecture": "ResNet50",
+  "seed": 42,
+  "best_val_auroc": 0.9997762054778013,
+  "best_epoch_stage2": 6
+}

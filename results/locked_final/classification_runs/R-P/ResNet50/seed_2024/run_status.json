@@ -1,0 +1,8 @@
+{
+  "run_id": "B12_R_P_seed2024",
+  "status": "SUCCESS",
+  "runtime_seconds": 1693.4993047714233,
+  "n_test_predictions": 624,
+  "test_auroc": 0.9730769230769231,
+  "test_accuracy": 0.8733974358974359
+}

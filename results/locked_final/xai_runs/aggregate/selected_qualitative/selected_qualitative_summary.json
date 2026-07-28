@@ -1,0 +1,9 @@
+{
+  "seed": 3407,
+  "outputs": [
+    "D:\\XAI\\paper\\figures\\xai_qualitative_densenet_guided_cases.png",
+    "D:\\XAI\\paper\\figures\\xai_qualitative_resnet_guided_cases.png"
+  ],
+  "selection_rule": "For each available P-model outcome stratum in the 128-case XAI sample, select the case with both proposed Grad-CAM and proposed Guided Grad-CAM pointing inside lung, then largest minimum proposed LRR+ across the two methods, then largest total proposed-minus-control LRR+ delta.",
+  "note": "No FN stratum was present for the proposed models in seed 3407 XAI sample."
+}

@@ -1,0 +1,42 @@
+[{"stream_name":"stderr","time":8.15437027,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.154453994,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.154462194,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.154466501,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.807877237,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.807945291,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.80795112,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.807955042,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":17.664137866,"data":"[AUDIT] opaque_test_images.zip not found; using images directly from /kaggle/input.\n"}
+,{"stream_name":"stdout","time":18.144144658,"data":"{'n_test_labels': 624, 'n_images': 624, 'n_masks': 5814, 'label_key': '/kaggle/input/datasets/hintrngia/gate7-test-seal/SEALED_test_label_key.csv'}\n"}
+,{"stream_name":"stdout","time":23.227074572,"data":"{\n"}
+,{"stream_name":"stdout","time":23.227138633,"data":"  \"n_test_labels\": 624,\n"}
+,{"stream_name":"stdout","time":23.22714728,"data":"  \"n_eligible_with_image_and_mask\": 624,\n"}
+,{"stream_name":"stdout","time":23.227152749,"data":"  \"n_missing_images\": 0,\n"}
+,{"stream_name":"stdout","time":23.227157792,"data":"  \"n_missing_masks\": 0,\n"}
+,{"stream_name":"stdout","time":23.227163229,"data":"  \"missing_images_first_20\": [],\n"}
+,{"stream_name":"stdout","time":23.227168473,"data":"  \"missing_masks_first_20\": []\n"}
+,{"stream_name":"stdout","time":23.227173306,"data":"}\n"}
+,{"stream_name":"stdout","time":23.227178057,"data":"{\n"}
+,{"stream_name":"stdout","time":23.227182886,"data":"  \"manifest_file\": \"/kaggle/working/locked_outputs/xai/xai_sample_manifest_128.csv\",\n"}
+,{"stream_name":"stdout","time":23.227188271,"data":"  \"n_rows\": 128,\n"}
+,{"stream_name":"stdout","time":23.227193181,"data":"  \"class_counts\": {\n"}
+,{"stream_name":"stdout","time":23.227198261,"data":"    \"0\": 64,\n"}
+,{"stream_name":"stdout","time":23.227203044,"data":"    \"1\": 64\n"}
+,{"stream_name":"stdout","time":23.227207731,"data":"  },\n"}
+,{"stream_name":"stdout","time":23.227212528,"data":"  \"sha256\": \"ab1f02d26d2cc7f0db86d25f8f05bf87e9069be48c4a33ea04e7a580911ebbef\",\n"}
+,{"stream_name":"stdout","time":23.227217715,"data":"  \"rule\": \"Balanced deterministic sample: 64 normal and 64 pneumonia, seed 3407; independent of model correctness/confidence.\"\n"}
+,{"stream_name":"stdout","time":23.22722306,"data":"}\n"}
+,{"stream_name":"stderr","time":23.228460799,"data":"/tmp/ipykernel_22/2507178043.py:47: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.\n"}
+,{"stream_name":"stderr","time":23.228484921,"data":"  .apply(lambda g: g.sample(n=N_PER_CLASS, random_state=SAMPLE_SEED))\n"}
+,{"stream_name":"stderr","time":23.228491161,"data":"\n"}
+,{"stream_name":"stderr","time":23.228495964,"data":"/tmp/ipykernel_22/2507178043.py:47: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.\n"}
+,{"stream_name":"stderr","time":23.22852005,"data":"  .apply(lambda g: g.sample(n=N_PER_CLASS, random_state=SAMPLE_SEED))\n"}
+,{"stream_name":"stderr","time":25.694626517,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":25.694668521,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":25.854080122,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":25.854132911,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":26.455813835,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":26.750711262,"data":"[NbConvertApp] Writing 21753 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":29.103835023,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":29.915762558,"data":"[NbConvertApp] Writing 316347 bytes to __results__.html\n"}
+]

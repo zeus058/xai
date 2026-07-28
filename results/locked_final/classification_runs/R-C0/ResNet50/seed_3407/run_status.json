@@ -1,0 +1,8 @@
+{
+  "run_id": "B07_R_C0_seed3407",
+  "status": "SUCCESS",
+  "runtime_seconds": 812.8538982868195,
+  "n_test_predictions": 624,
+  "test_auroc": 0.9719154065307911,
+  "test_accuracy": 0.8717948717948718
+}

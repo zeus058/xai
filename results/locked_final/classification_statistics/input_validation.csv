@@ -1,0 +1,13 @@
+run_id,condition,architecture,seed,n_predictions,n_unique_images,n_normal,n_pneumonia,threshold,source_path
+B01_D_C0_seed3407,D-C0,DenseNet121,3407,624,624,234,390,0.65966796875,results\locked_final\classification_runs\D-C0\DenseNet121\seed_3407\test_predictions.csv
+B02_D_C0_seed42,D-C0,DenseNet121,42,624,624,234,390,0.5126953125,results\locked_final\classification_runs\D-C0\DenseNet121\seed_42\test_predictions.csv
+B03_D_C0_seed2024,D-C0,DenseNet121,2024,624,624,234,390,0.57861328125,results\locked_final\classification_runs\D-C0\DenseNet121\seed_2024\test_predictions.csv
+B04_D_P_seed3407,D-P,DenseNet121,3407,624,624,234,390,0.58251953125,results\locked_final\classification_runs\D-P\DenseNet121\seed_3407\test_predictions.csv
+B05_D_P_seed42,D-P,DenseNet121,42,624,624,234,390,0.5634765625,results\locked_final\classification_runs\D-P\DenseNet121\seed_42\test_predictions.csv
+B06_D_P_seed2024,D-P,DenseNet121,2024,624,624,234,390,0.52392578125,results\locked_final\classification_runs\D-P\DenseNet121\seed_2024\test_predictions.csv
+B07_R_C0_seed3407,R-C0,ResNet50,3407,624,624,234,390,0.712890625,results\locked_final\classification_runs\R-C0\ResNet50\seed_3407\test_predictions.csv
+B08_R_C0_seed42,R-C0,ResNet50,42,624,624,234,390,0.4501953125,results\locked_final\classification_runs\R-C0\ResNet50\seed_42\test_predictions.csv
+B09_R_C0_seed2024,R-C0,ResNet50,2024,624,624,234,390,0.65234375,results\locked_final\classification_runs\R-C0\ResNet50\seed_2024\test_predictions.csv
+B10_R_P_seed3407,R-P,ResNet50,3407,624,624,234,390,0.62451171875,results\locked_final\classification_runs\R-P\ResNet50\seed_3407\test_predictions.csv
+B11_R_P_seed42,R-P,ResNet50,42,624,624,234,390,0.43505859375,results\locked_final\classification_runs\R-P\ResNet50\seed_42\test_predictions.csv
+B12_R_P_seed2024,R-P,ResNet50,2024,624,624,234,390,0.6220703125,results\locked_final\classification_runs\R-P\ResNet50\seed_2024\test_predictions.csv

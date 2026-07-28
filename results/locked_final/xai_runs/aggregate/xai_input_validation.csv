@@ -1,0 +1,5 @@
+run_id,condition,architecture,rows,unique_images,source_path
+E01_XAI_D_C0_DenseNet121,D-C0,DenseNet121,384,128,results\locked_final\xai_runs\E01_XAI_D_C0_DenseNet121\xai_metrics_by_image.csv
+E02_XAI_D_P_DenseNet121,D-P,DenseNet121,384,128,results\locked_final\xai_runs\E02_XAI_D_P_DenseNet121\xai_metrics_by_image.csv
+E03_XAI_R_C0_ResNet50,R-C0,ResNet50,384,128,results\locked_final\xai_runs\E03_XAI_R_C0_ResNet50\xai_metrics_by_image.csv
+E04_XAI_R_P_ResNet50,R-P,ResNet50,384,128,results\locked_final\xai_runs\E04_XAI_R_P_ResNet50\xai_metrics_by_image.csv

@@ -1,0 +1,112 @@
+# Local-only data, staging folders, and raw medical images
+_local/
+pipeline/input/
+kaggle_datasets/
+archive/
+data/
+datasets/
+input/
+outputs/
+working/
+kaggle/working/
+kaggle/input/
+**/opaque_test_images*/
+**/lung_masks*/
+**/raw*/
+
+# Large training/model artifacts
+*.pt
+*.pth
+*.ckpt
+*.g46blob
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.safetensors
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Raw image/medical data formats should not be committed directly.
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+
+# Keep paper/result figures that are part of the evidence package.
+!paper/figures/*.png
+!results/locked_final/**/figures/*.png
+
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.agents/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# LaTeX build intermediates
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+
+# Temporary notebook/report outputs and visual QA renders
+*.tmp
+*.temp
+*.bak
+*.orig
+*.html
+results.html
+paper/qa_*.png
+artifacts/paper_page*.png
+artifacts/paper_final_audit_page*.png
+
+# Experiment tracker/local training outputs
+wandb/
+mlruns/
+runs/
+lightning_logs/
+tensorboard/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+kaggle.json
+*.key
+*.pem
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Separate Git metadata directory
+.gitdata/
+.gitrepo/
+_gitrepo/
+_vcs/
+git_index*
+vcsrepo/

@@ -1,0 +1,8 @@
+{
+  "run_id": "B03_D_C0_seed2024",
+  "status": "SUCCESS",
+  "runtime_seconds": 1656.1730403900146,
+  "n_test_predictions": 624,
+  "test_auroc": 0.9661571334648259,
+  "test_accuracy": 0.8269230769230769
+}

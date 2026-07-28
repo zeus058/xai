@@ -1,0 +1,5 @@
+architecture,metric,metric_label,improved,worsened,tied,exact_sign_test_p,note
+DenseNet121,gcam_pointing_inside_lung,Grad-CAM pointing,227,0,157,9.273015376718553e-69,Sign test over paired seed-image rows; seed-image rows are not independent patient-level observations.
+DenseNet121,guided_gcam_pointing_inside_lung,Guided Grad-CAM pointing,291,1,92,7.364425652901037e-86,Sign test over paired seed-image rows; seed-image rows are not independent patient-level observations.
+ResNet50,gcam_pointing_inside_lung,Grad-CAM pointing,300,0,84,9.818186930595453e-91,Sign test over paired seed-image rows; seed-image rows are not independent patient-level observations.
+ResNet50,guided_gcam_pointing_inside_lung,Guided Grad-CAM pointing,249,6,129,1.2736884873070482e-65,Sign test over paired seed-image rows; seed-image rows are not independent patient-level observations.

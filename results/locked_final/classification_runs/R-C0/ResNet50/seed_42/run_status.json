@@ -1,0 +1,8 @@
+{
+  "run_id": "B08_R_C0_seed42",
+  "status": "SUCCESS",
+  "runtime_seconds": 992.0814406871796,
+  "n_test_predictions": 624,
+  "test_auroc": 0.9683048433048433,
+  "test_accuracy": 0.7900641025641025
+}

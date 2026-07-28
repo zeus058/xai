@@ -1,0 +1,3 @@
+architecture,Grad-CAM LRR+ delta,Grad-CAM LRR+ 95CI,Guided Grad-CAM LRR+ delta,Guided Grad-CAM LRR+ 95CI,Grad-CAM pointing delta,Grad-CAM pointing 95CI,Guided Grad-CAM pointing delta,Guided Grad-CAM pointing 95CI,Grad-CAM stability delta delta,Grad-CAM stability delta 95CI,Guided Grad-CAM stability delta delta,Guided Grad-CAM stability delta 95CI
+DenseNet121,"+0.3955 [0.3867, 0.4044]",True,"+0.4363 [0.4220, 0.4502]",True,"+0.5911 [0.5417, 0.6406]",True,"+0.7552 [0.7109, 0.7995]",True,"-0.0010 [-0.0012, -0.0008]",True,"-0.0025 [-0.0029, -0.0020]",True
+ResNet50,"+0.4010 [0.3924, 0.4093]",True,"+0.4391 [0.4232, 0.4550]",True,"+0.7812 [0.7422, 0.8203]",True,"+0.6328 [0.5807, 0.6823]",True,"-0.0010 [-0.0011, -0.0008]",True,"-0.0024 [-0.0029, -0.0020]",True

@@ -1,0 +1,170 @@
+[{"stream_name":"stderr","time":6.213068411,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.213172123,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.213179353,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.213183072,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.773412128,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.773453352,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.773457679,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.773474597,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":23.266906288,"data":"{\n"}
+,{"stream_name":"stdout","time":23.266969164,"data":"  \"task\": \"original_reference_reproduction_best_effort\",\n"}
+,{"stream_name":"stdout","time":23.266976816,"data":"  \"seeds\": [\n"}
+,{"stream_name":"stdout","time":23.266981632,"data":"    3407,\n"}
+,{"stream_name":"stdout","time":23.26698684,"data":"    42,\n"}
+,{"stream_name":"stdout","time":23.266991599,"data":"    2024\n"}
+,{"stream_name":"stdout","time":23.266995697,"data":"  ],\n"}
+,{"stream_name":"stdout","time":23.266999934,"data":"  \"architectures\": [\n"}
+,{"stream_name":"stdout","time":23.267004464,"data":"    \"DenseNet121\",\n"}
+,{"stream_name":"stdout","time":23.267009064,"data":"    \"ResNet50\"\n"}
+,{"stream_name":"stdout","time":23.267013863,"data":"  ],\n"}
+,{"stream_name":"stdout","time":23.267017984,"data":"  \"batch_size\": 32,\n"}
+,{"stream_name":"stdout","time":23.267022406,"data":"  \"num_workers\": 2,\n"}
+,{"stream_name":"stdout","time":23.267026367,"data":"  \"input_resolution\": 224,\n"}
+,{"stream_name":"stdout","time":23.267030495,"data":"  \"stage1_epochs\": 5,\n"}
+,{"stream_name":"stdout","time":23.267034668,"data":"  \"stage2_epochs\": 20,\n"}
+,{"stream_name":"stdout","time":23.267038791,"data":"  \"stage1_lr\": 0.001,\n"}
+,{"stream_name":"stdout","time":23.267043059,"data":"  \"stage2_lr\": 0.0001,\n"}
+,{"stream_name":"stdout","time":23.267047543,"data":"  \"weight_decay\": 0.0001,\n"}
+,{"stream_name":"stdout","time":23.267052463,"data":"  \"patience\": 5,\n"}
+,{"stream_name":"stdout","time":23.267056948,"data":"  \"loss_type\": \"BCEWithLogitsLoss\",\n"}
+,{"stream_name":"stdout","time":23.26706165,"data":"  \"use_cbam\": false,\n"}
+,{"stream_name":"stdout","time":23.267065948,"data":"  \"use_mask_loss\": false,\n"}
+,{"stream_name":"stdout","time":23.267070585,"data":"  \"apply_clahe\": false,\n"}
+,{"stream_name":"stdout","time":23.267075341,"data":"  \"use_tta\": false,\n"}
+,{"stream_name":"stdout","time":23.267079959,"data":"  \"threshold_source\": \"validation_youden\",\n"}
+,{"stream_name":"stdout","time":23.267084166,"data":"  \"reference_targets\": {\n"}
+,{"stream_name":"stdout","time":23.267088763,"data":"    \"DenseNet121\": {\n"}
+,{"stream_name":"stdout","time":23.267093471,"data":"      \"accuracy\": 0.891,\n"}
+,{"stream_name":"stdout","time":23.267097843,"data":"      \"auroc\": 0.98\n"}
+,{"stream_name":"stdout","time":23.267102676,"data":"    },\n"}
+,{"stream_name":"stdout","time":23.267107077,"data":"    \"ResNet50\": {\n"}
+,{"stream_name":"stdout","time":23.267128149,"data":"      \"accuracy\": 0.844,\n"}
+,{"stream_name":"stdout","time":23.26713214,"data":"      \"auroc\": 0.95\n"}
+,{"stream_name":"stdout","time":23.267135824,"data":"    }\n"}
+,{"stream_name":"stdout","time":23.267139211,"data":"  },\n"}
+,{"stream_name":"stdout","time":23.26714265,"data":"  \"reproduction_tolerance_abs\": 0.02\n"}
+,{"stream_name":"stdout","time":23.26714641,"data":"}\n"}
+,{"stream_name":"stdout","time":35.366556876,"data":"Environment and dataset audit saved.\n"}
+,{"stream_name":"stdout","time":50.059376697,"data":"[AUDIT] opaque_test_images.zip not found; using images directly from /kaggle/input.\n"}
+,{"stream_name":"stdout","time":50.059420641,"data":"{'development_manifest': '/kaggle/working/gate46_development_extracted/manifests/clean_development_only_manifest.csv', 'test_label_key': '/kaggle/input/datasets/hintrngia/gate7-test-seal/SEALED_test_label_key.csv', 'n_train': 4411, 'n_val': 779, 'n_test': 624}\n"}
+,{"stream_name":"stdout","time":50.196383845,"data":"Image map size: 5840\n"}
+,{"stream_name":"stdout","time":50.538434005,"data":"Downloading: \"https://download.pytorch.org/models/densenet121-a639ec97.pth\" to /root/.cache/torch/hub/checkpoints/densenet121-a639ec97.pth\n"}
+,{"stream_name":"stderr","time":50.539467363,"data":"\r  0%|          | 0.00/30.8M [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stderr","time":50.641194039,"data":"\r  0%|          | 0.00/30.8M [00:00\u003c?, ?B/s]\r 44%|████▍     | 13.6M/30.8M [00:00\u003c00:00, 142MB/s]\n"}
+,{"stream_name":"stderr","time":50.719267119,"data":"\r 44%|████▍     | 13.6M/30.8M [00:00\u003c00:00, 142MB/s]\r100%|██████████| 30.8M/30.8M [00:00\u003c00:00, 180MB/s]\n"}
+,{"stream_name":"stderr","time":50.910298722,"data":"\r100%|██████████| 30.8M/30.8M [00:00\u003c00:00, 180MB/s]\n"}
+,{"stream_name":"stderr","time":50.910345807,"data":"\n"}
+,{"stream_name":"stderr","time":50.910352814,"data":"\n"}
+,{"stream_name":"stdout","time":91.756031175,"data":"DenseNet121 3407 stage1 1 0.9792903992149977\n"}
+,{"stream_name":"stdout","time":127.449807771,"data":"DenseNet121 3407 stage1 2 0.9822513728933189\n"}
+,{"stream_name":"stdout","time":163.352795473,"data":"DenseNet121 3407 stage1 3 0.9840503365525314\n"}
+,{"stream_name":"stdout","time":198.875498548,"data":"DenseNet121 3407 stage1 4 0.9858923376198592\n"}
+,{"stream_name":"stdout","time":234.955232272,"data":"DenseNet121 3407 stage1 5 0.9862882817745183\n"}
+,{"stream_name":"stdout","time":274.622641752,"data":"DenseNet121 3407 stage2 1 0.9987691301279071\n"}
+,{"stream_name":"stdout","time":313.081139792,"data":"DenseNet121 3407 stage2 2 0.9988724199073835\n"}
+,{"stream_name":"stdout","time":352.177020652,"data":"DenseNet121 3407 stage2 3 0.9988552049441375\n"}
+,{"stream_name":"stdout","time":391.169172781,"data":"DenseNet121 3407 stage2 4 0.9992339341355505\n"}
+,{"stream_name":"stdout","time":430.565644198,"data":"DenseNet121 3407 stage2 5 0.9996298782902099\n"}
+,{"stream_name":"stdout","time":469.675060876,"data":"DenseNet121 3407 stage2 6 0.9993974762863881\n"}
+,{"stream_name":"stdout","time":508.938036389,"data":"DenseNet121 3407 stage2 7 0.9992941865069118\n"}
+,{"stream_name":"stdout","time":548.93793745,"data":"DenseNet121 3407 stage2 8 0.9993372239150269\n"}
+,{"stream_name":"stdout","time":587.64772177,"data":"DenseNet121 3407 stage2 9 0.9995179810291106\n"}
+,{"stream_name":"stdout","time":626.322350815,"data":"DenseNet121 3407 stage2 10 0.9996040558453408\n"}
+,{"stream_name":"stdout","time":673.094160415,"data":"DenseNet121 42 stage1 1 0.9807967084990273\n"}
+,{"stream_name":"stdout","time":709.289274465,"data":"DenseNet121 42 stage1 2 0.9841536263320078\n"}
+,{"stream_name":"stdout","time":745.760523494,"data":"DenseNet121 42 stage1 3 0.9858148702852519\n"}
+,{"stream_name":"stdout","time":781.943607303,"data":"DenseNet121 42 stage1 4 0.9871576374184442\n"}
+,{"stream_name":"stdout","time":817.588214207,"data":"DenseNet121 42 stage1 5 0.9878892733564014\n"}
+,{"stream_name":"stdout","time":856.760183115,"data":"DenseNet121 42 stage2 1 0.9985453356057085\n"}
+,{"stream_name":"stdout","time":895.55802715,"data":"DenseNet121 42 stage2 2 0.9986744478300539\n"}
+,{"stream_name":"stdout","time":934.151239387,"data":"DenseNet121 42 stage2 3 0.9988810273890065\n"}
+,{"stream_name":"stdout","time":973.531886448,"data":"DenseNet121 42 stage2 4 0.999035962058221\n"}
+,{"stream_name":"stdout","time":1012.74367759,"data":"DenseNet121 42 stage2 5 0.9987519151646611\n"}
+,{"stream_name":"stdout","time":1050.908611812,"data":"DenseNet121 42 stage2 6 0.9993027939885348\n"}
+,{"stream_name":"stdout","time":1089.14240447,"data":"DenseNet121 42 stage2 7 0.9993114014701578\n"}
+,{"stream_name":"stdout","time":1126.960738019,"data":"DenseNet121 42 stage2 8 0.9992511490987966\n"}
+,{"stream_name":"stdout","time":1165.017295254,"data":"DenseNet121 42 stage2 9 0.9994232987312572\n"}
+,{"stream_name":"stdout","time":1203.674022906,"data":"DenseNet121 42 stage2 10 0.9994749436209953\n"}
+,{"stream_name":"stdout","time":1243.37762567,"data":"DenseNet121 42 stage2 11 0.9993974762863881\n"}
+,{"stream_name":"stdout","time":1282.590569783,"data":"DenseNet121 42 stage2 12 0.9993716538415189\n"}
+,{"stream_name":"stdout","time":1321.808665617,"data":"DenseNet121 42 stage2 13 0.9995524109556027\n"}
+,{"stream_name":"stdout","time":1360.47902521,"data":"DenseNet121 42 stage2 14 0.9994663361393724\n"}
+,{"stream_name":"stdout","time":1399.15304896,"data":"DenseNet121 42 stage2 15 0.9995265885107336\n"}
+,{"stream_name":"stdout","time":1438.511944769,"data":"DenseNet121 42 stage2 16 0.9995782334004717\n"}
+,{"stream_name":"stdout","time":1476.563807089,"data":"DenseNet121 42 stage2 17 0.9995782334004717\n"}
+,{"stream_name":"stdout","time":1515.328364854,"data":"DenseNet121 42 stage2 18 0.9994835511026184\n"}
+,{"stream_name":"stdout","time":1560.284527219,"data":"DenseNet121 2024 stage1 1 0.9789202775052075\n"}
+,{"stream_name":"stdout","time":1596.279087528,"data":"DenseNet121 2024 stage1 2 0.9831551584637367\n"}
+,{"stream_name":"stdout","time":1631.705088968,"data":"DenseNet121 2024 stage1 3 0.9848422248618499\n"}
+,{"stream_name":"stdout","time":1666.960344462,"data":"DenseNet121 2024 stage1 4 0.9860558797706968\n"}
+,{"stream_name":"stdout","time":1702.350298581,"data":"DenseNet121 2024 stage1 5 0.9865723286680783\n"}
+,{"stream_name":"stdout","time":1740.222343613,"data":"DenseNet121 2024 stage2 1 0.99775344729639\n"}
+,{"stream_name":"stdout","time":1778.81978392,"data":"DenseNet121 2024 stage2 2 0.9978309146309973\n"}
+,{"stream_name":"stdout","time":1818.021275398,"data":"DenseNet121 2024 stage2 3 0.9992167191723046\n"}
+,{"stream_name":"stdout","time":1855.878964274,"data":"DenseNet121 2024 stage2 4 0.9990445695398441\n"}
+,{"stream_name":"stdout","time":1894.04277017,"data":"DenseNet121 2024 stage2 5 0.9991478593193204\n"}
+,{"stream_name":"stdout","time":1932.151934309,"data":"DenseNet121 2024 stage2 6 0.9987433076830381\n"}
+,{"stream_name":"stdout","time":1970.428838136,"data":"DenseNet121 2024 stage2 7 0.9987002702749229\n"}
+,{"stream_name":"stdout","time":2008.785085961,"data":"DenseNet121 2024 stage2 8 0.9992941865069118\n"}
+,{"stream_name":"stdout","time":2018.974220522,"data":"Downloading: \"https://download.pytorch.org/models/resnet50-0676ba61.pth\" to /root/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth\n"}
+,{"stream_name":"stderr","time":2018.975142675,"data":"\r  0%|          | 0.00/97.8M [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stderr","time":2019.075860867,"data":"\r  0%|          | 0.00/97.8M [00:00\u003c?, ?B/s]\r 17%|█▋        | 16.4M/97.8M [00:00\u003c00:00, 171MB/s]\n"}
+,{"stream_name":"stderr","time":2019.175721716,"data":"\r 17%|█▋        | 16.4M/97.8M [00:00\u003c00:00, 171MB/s]\r 35%|███▍      | 34.1M/97.8M [00:00\u003c00:00, 180MB/s]\n"}
+,{"stream_name":"stderr","time":2019.276792572,"data":"\r 35%|███▍      | 34.1M/97.8M [00:00\u003c00:00, 180MB/s]\r 53%|█████▎    | 51.5M/97.8M [00:00\u003c00:00, 181MB/s]\n"}
+,{"stream_name":"stderr","time":2019.377096482,"data":"\r 53%|█████▎    | 51.5M/97.8M [00:00\u003c00:00, 181MB/s]\r 74%|███████▎  | 72.0M/97.8M [00:00\u003c00:00, 194MB/s]\n"}
+,{"stream_name":"stderr","time":2019.477515635,"data":"\r 74%|███████▎  | 72.0M/97.8M [00:00\u003c00:00, 194MB/s]\r 95%|█████████▍| 92.9M/97.8M [00:00\u003c00:00, 202MB/s]\n"}
+,{"stream_name":"stderr","time":2019.502975512,"data":"\r 95%|█████████▍| 92.9M/97.8M [00:00\u003c00:00, 202MB/s]\r100%|██████████| 97.8M/97.8M [00:00\u003c00:00, 194MB/s]\n"}
+,{"stream_name":"stderr","time":2019.578416256,"data":"\r100%|██████████| 97.8M/97.8M [00:00\u003c00:00, 194MB/s]\n"}
+,{"stream_name":"stderr","time":2019.57846325,"data":"\n"}
+,{"stream_name":"stderr","time":2019.578467174,"data":"\n"}
+,{"stream_name":"stdout","time":2055.564411836,"data":"ResNet50 3407 stage1 1 0.9785243333505483\n"}
+,{"stream_name":"stdout","time":2090.855775741,"data":"ResNet50 3407 stage1 2 0.9840503365525314\n"}
+,{"stream_name":"stdout","time":2126.652117137,"data":"ResNet50 3407 stage1 3 0.9864087865172408\n"}
+,{"stream_name":"stdout","time":2161.709610277,"data":"ResNet50 3407 stage1 4 0.9875794040179724\n"}
+,{"stream_name":"stdout","time":2196.901314497,"data":"ResNet50 3407 stage1 5 0.9894644424934153\n"}
+,{"stream_name":"stdout","time":2234.441833803,"data":"ResNet50 3407 stage2 1 0.998046101671573\n"}
+,{"stream_name":"stdout","time":2272.252053154,"data":"ResNet50 3407 stage2 2 0.999337223915027\n"}
+,{"stream_name":"stdout","time":2310.315551399,"data":"ResNet50 3407 stage2 3 0.9987691301279071\n"}
+,{"stream_name":"stdout","time":2348.119988528,"data":"ResNet50 3407 stage2 4 0.9981321764878033\n"}
+,{"stream_name":"stdout","time":2386.060219209,"data":"ResNet50 3407 stage2 5 0.9994232987312572\n"}
+,{"stream_name":"stdout","time":2423.798264833,"data":"ResNet50 3407 stage2 6 0.9989757096868599\n"}
+,{"stream_name":"stdout","time":2461.768031767,"data":"ResNet50 3407 stage2 7 0.9991822892458124\n"}
+,{"stream_name":"stdout","time":2507.275522613,"data":"ResNet50 42 stage1 1 0.9802286147119076\n"}
+,{"stream_name":"stdout","time":2543.180005741,"data":"ResNet50 42 stage1 2 0.9841794487768769\n"}
+,{"stream_name":"stdout","time":2578.472567703,"data":"ResNet50 42 stage1 3 0.9862108144399112\n"}
+,{"stream_name":"stdout","time":2613.519023057,"data":"ResNet50 42 stage1 4 0.9873900394222658\n"}
+,{"stream_name":"stdout","time":2648.525232318,"data":"ResNet50 42 stage1 5 0.9888963487062956\n"}
+,{"stream_name":"stdout","time":2687.269490658,"data":"ResNet50 42 stage2 1 0.9994921585842415\n"}
+,{"stream_name":"stdout","time":2725.338833205,"data":"ResNet50 42 stage2 2 0.9986400179035618\n"}
+,{"stream_name":"stdout","time":2763.410075745,"data":"ResNet50 42 stage2 3 0.9992941865069118\n"}
+,{"stream_name":"stdout","time":2800.775950427,"data":"ResNet50 42 stage2 4 0.9993027939885348\n"}
+,{"stream_name":"stdout","time":2839.222753663,"data":"ResNet50 42 stage2 5 0.9995179810291105\n"}
+,{"stream_name":"stdout","time":2878.277625771,"data":"ResNet50 42 stage2 6 0.9997762054778013\n"}
+,{"stream_name":"stdout","time":2916.150563761,"data":"ResNet50 42 stage2 7 0.9995093735474875\n"}
+,{"stream_name":"stdout","time":2954.461851135,"data":"ResNet50 42 stage2 8 0.999371653841519\n"}
+,{"stream_name":"stdout","time":2992.167380658,"data":"ResNet50 42 stage2 9 0.9997675979961783\n"}
+,{"stream_name":"stdout","time":3029.993345364,"data":"ResNet50 42 stage2 10 0.9996987381431941\n"}
+,{"stream_name":"stdout","time":3067.954546081,"data":"ResNet50 42 stage2 11 0.9998364578491625\n"}
+,{"stream_name":"stdout","time":3113.22484329,"data":"ResNet50 2024 stage1 1 0.980340511973007\n"}
+,{"stream_name":"stdout","time":3148.546994177,"data":"ResNet50 2024 stage1 2 0.9849196921964571\n"}
+,{"stream_name":"stdout","time":3183.54968489,"data":"ResNet50 2024 stage1 3 0.9868477680800151\n"}
+,{"stream_name":"stdout","time":3219.125378802,"data":"ResNet50 2024 stage1 4 0.9883368624007988\n"}
+,{"stream_name":"stdout","time":3255.346725183,"data":"ResNet50 2024 stage1 5 0.9890254609306409\n"}
+,{"stream_name":"stdout","time":3292.807327749,"data":"ResNet50 2024 stage2 1 0.9992425416171736\n"}
+,{"stream_name":"stdout","time":3330.798336712,"data":"ResNet50 2024 stage2 2 0.9989757096868598\n"}
+,{"stream_name":"stdout","time":3368.944787603,"data":"ResNet50 2024 stage2 3 0.999035962058221\n"}
+,{"stream_name":"stdout","time":3406.376954425,"data":"ResNet50 2024 stage2 4 0.9997675979961782\n"}
+,{"stream_name":"stdout","time":3444.855447254,"data":"ResNet50 2024 stage2 5 0.9997331680696862\n"}
+,{"stream_name":"stdout","time":3482.806414185,"data":"ResNet50 2024 stage2 6 0.9994663361393723\n"}
+,{"stream_name":"stdout","time":3520.342776007,"data":"ResNet50 2024 stage2 7 0.9998450653307855\n"}
+,{"stream_name":"stdout","time":3558.657033041,"data":"ResNet50 2024 stage2 8 0.9997762054778013\n"}
+,{"stream_name":"stdout","time":3597.271758227,"data":"ResNet50 2024 stage2 9 0.9997675979961783\n"}
+,{"stream_name":"stderr","time":3613.118085519,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3613.11811907,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3613.262074394,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3613.262102502,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3613.835888812,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3614.142612535,"data":"[NbConvertApp] Writing 40688 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3616.439675614,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3617.313572456,"data":"[NbConvertApp] Writing 393461 bytes to __results__.html\n"}
+]

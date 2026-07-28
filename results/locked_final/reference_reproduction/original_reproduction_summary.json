@@ -1,0 +1,36 @@
+{
+  "runtime_seconds": 3557.070111989975,
+  "summary": [
+    {
+      "architecture": "DenseNet121",
+      "n_runs": 3,
+      "accuracy_mean": 0.8125,
+      "accuracy_sd": 0.023278588215278794,
+      "accuracy_reference": 0.891,
+      "accuracy_diff": -0.07850000000000001,
+      "accuracy_within_tolerance": false,
+      "auroc_mean": 0.9545620571261598,
+      "auroc_sd": 0.016497705967262685,
+      "auroc_reference": 0.98,
+      "auroc_diff": -0.025437942873840158,
+      "auroc_within_tolerance": false,
+      "overall_pass": false
+    },
+    {
+      "architecture": "ResNet50",
+      "n_runs": 3,
+      "accuracy_mean": 0.8151709401709403,
+      "accuracy_sd": 0.014541300842752349,
+      "accuracy_reference": 0.844,
+      "accuracy_diff": -0.0288290598290597,
+      "accuracy_within_tolerance": false,
+      "auroc_mean": 0.9548542625465704,
+      "auroc_sd": 0.010895179666136985,
+      "auroc_reference": 0.95,
+      "auroc_diff": 0.004854262546570398,
+      "auroc_within_tolerance": true,
+      "overall_pass": false
+    }
+  ],
+  "paper_rule": "If overall_pass is false, describe reproduction as best-effort and do not claim exact reproduced improvement."
+}

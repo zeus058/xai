@@ -1,0 +1,71 @@
+[{"stream_name":"stderr","time":7.547006817,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.547073773,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.5470808,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.5470866359999995,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.149069784,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.14909991,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.149104895,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.14910871,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.671665185,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/7.8 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[91m━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.5/7.8 MB\u001b[0m \u001b[31m14.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.1/7.8 MB\u001b[0m \u001b[31m60.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m7.8/7.8 MB\u001b[0m \u001b[31m79.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m7.8/7.8 MB\u001b[0m \u001b[31m79.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.8/7.8 MB\u001b[0m \u001b[31m56.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":16.527329593,"data":"\u001b[?25h  Installing build dependencies ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":16.730496966,"data":"  Getting requirements to build wheel ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":16.933628959,"data":"  Preparing metadata (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":17.591412977,"data":"  Building wheel for grad-cam (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\r\n"}
+,{"stream_name":"stdout","time":53.496630815,"data":"[AUDIT] opaque_test_images.zip not found; using images directly from /kaggle/input.\n"}
+,{"stream_name":"stdout","time":54.643252491,"data":"[B02_D_C0_seed42] Device: cuda\n"}
+,{"stream_name":"stdout","time":54.64330914,"data":"Downloading: \"https://download.pytorch.org/models/densenet121-a639ec97.pth\" to /root/.cache/torch/hub/checkpoints/densenet121-a639ec97.pth\n"}
+,{"stream_name":"stderr","time":54.680778943,"data":"\r  0%|          | 0.00/30.8M [00:00\u003c?, ?B/s]\n"}
+,{"stream_name":"stderr","time":54.782376656,"data":"\r  0%|          | 0.00/30.8M [00:00\u003c?, ?B/s]\r 28%|██▊       | 8.50M/30.8M [00:00\u003c00:00, 88.6MB/s]\n"}
+,{"stream_name":"stderr","time":54.883105786,"data":"\r 28%|██▊       | 8.50M/30.8M [00:00\u003c00:00, 88.6MB/s]\r 92%|█████████▏| 28.2M/30.8M [00:00\u003c00:00, 158MB/s] \n"}
+,{"stream_name":"stderr","time":54.895893721,"data":"\r 92%|█████████▏| 28.2M/30.8M [00:00\u003c00:00, 158MB/s] \r100%|██████████| 30.8M/30.8M [00:00\u003c00:00, 151MB/s]\n"}
+,{"stream_name":"stderr","time":54.982977516,"data":"\r100%|██████████| 30.8M/30.8M [00:00\u003c00:00, 151MB/s]\n"}
+,{"stream_name":"stderr","time":54.983010851,"data":"\n"}
+,{"stream_name":"stderr","time":54.983015653,"data":"\n"}
+,{"stream_name":"stdout","time":122.419730757,"data":"[B02_D_C0_seed42] Stage 1 epoch 1/5 | train_loss=0.0255 | val_loss=0.0147 | val_auroc=0.9983\n"}
+,{"stream_name":"stdout","time":185.180790346,"data":"[B02_D_C0_seed42] Stage 1 epoch 2/5 | train_loss=0.0138 | val_loss=0.0086 | val_auroc=0.9980\n"}
+,{"stream_name":"stdout","time":249.112842611,"data":"[B02_D_C0_seed42] Stage 1 epoch 3/5 | train_loss=0.0145 | val_loss=0.0169 | val_auroc=0.9988\n"}
+,{"stream_name":"stdout","time":312.537647731,"data":"[B02_D_C0_seed42] Stage 1 epoch 4/5 | train_loss=0.0124 | val_loss=0.0082 | val_auroc=0.9989\n"}
+,{"stream_name":"stdout","time":377.049297723,"data":"[B02_D_C0_seed42] Stage 1 epoch 5/5 | train_loss=0.0101 | val_loss=0.0042 | val_auroc=0.9990\n"}
+,{"stream_name":"stdout","time":443.533073043,"data":"[B02_D_C0_seed42] Stage 2 epoch 1/25 | train_loss=0.0131 | val_loss=0.0060 | val_auroc=0.9984\n"}
+,{"stream_name":"stdout","time":508.508950393,"data":"[B02_D_C0_seed42] Stage 2 epoch 2/25 | train_loss=0.0080 | val_loss=0.0064 | val_auroc=0.9986\n"}
+,{"stream_name":"stdout","time":572.527230217,"data":"[B02_D_C0_seed42] Stage 2 epoch 3/25 | train_loss=0.0063 | val_loss=0.0051 | val_auroc=0.9987\n"}
+,{"stream_name":"stdout","time":635.52283721,"data":"[B02_D_C0_seed42] Stage 2 epoch 4/25 | train_loss=0.0052 | val_loss=0.0036 | val_auroc=0.9992\n"}
+,{"stream_name":"stdout","time":700.444490783,"data":"[B02_D_C0_seed42] Stage 2 epoch 5/25 | train_loss=0.0062 | val_loss=0.0035 | val_auroc=0.9993\n"}
+,{"stream_name":"stdout","time":764.873606318,"data":"[B02_D_C0_seed42] Stage 2 epoch 6/25 | train_loss=0.0041 | val_loss=0.0035 | val_auroc=0.9993\n"}
+,{"stream_name":"stdout","time":830.480361668,"data":"[B02_D_C0_seed42] Stage 2 epoch 7/25 | train_loss=0.0047 | val_loss=0.0050 | val_auroc=0.9991\n"}
+,{"stream_name":"stdout","time":897.103842995,"data":"[B02_D_C0_seed42] Stage 2 epoch 8/25 | train_loss=0.0029 | val_loss=0.0045 | val_auroc=0.9992\n"}
+,{"stream_name":"stdout","time":962.867019708,"data":"[B02_D_C0_seed42] Stage 2 epoch 9/25 | train_loss=0.0033 | val_loss=0.0064 | val_auroc=0.9986\n"}
+,{"stream_name":"stdout","time":1030.034776078,"data":"[B02_D_C0_seed42] Stage 2 epoch 10/25 | train_loss=0.0022 | val_loss=0.0048 | val_auroc=0.9991\n"}
+,{"stream_name":"stdout","time":1030.034856014,"data":"[B02_D_C0_seed42] Early stopping at stage 2 epoch 10.\n"}
+,{"stream_name":"stdout","time":1037.957992191,"data":"[CALIBRATION] Optimal Temperature found: 0.8163\n"}
+,{"stream_name":"stdout","time":1045.262055014,"data":"[CALIBRATION] Optimal Threshold: 0.5127\n"}
+,{"stream_name":"stdout","time":1056.714491758,"data":"{\n"}
+,{"stream_name":"stdout","time":1056.714526558,"data":"  \"run_id\": \"B02_D_C0_seed42\",\n"}
+,{"stream_name":"stdout","time":1056.714533386,"data":"  \"status\": \"SUCCESS\",\n"}
+,{"stream_name":"stdout","time":1056.714538312,"data":"  \"runtime_seconds\": 1021.8684480190277,\n"}
+,{"stream_name":"stdout","time":1056.714544144,"data":"  \"n_test_predictions\": 624,\n"}
+,{"stream_name":"stdout","time":1056.714560398,"data":"  \"test_auroc\": 0.9710387902695595,\n"}
+,{"stream_name":"stdout","time":1056.714564591,"data":"  \"test_accuracy\": 0.8381410256410257\n"}
+,{"stream_name":"stdout","time":1056.714568141,"data":"}\n"}
+,{"stream_name":"stdout","time":1056.714571786,"data":"   n_test  n_normal  n_pneumonia     auroc     auprc  accuracy  \\\n"}
+,{"stream_name":"stdout","time":1056.71457534,"data":"0     624       234          390  0.971039  0.979733  0.838141   \n"}
+,{"stream_name":"stdout","time":1056.714578919,"data":"\n"}
+,{"stream_name":"stdout","time":1056.714582285,"data":"   balanced_accuracy  sensitivity  specificity  precision  ...  threshold  \\\n"}
+,{"stream_name":"stdout","time":1056.714586023,"data":"0           0.785897     0.994872     0.576923   0.796715  ...   0.512695   \n"}
+,{"stream_name":"stdout","time":1056.714589648,"data":"\n"}
+,{"stream_name":"stdout","time":1056.714592898,"data":"   temperature   tn  fp  fn   tp           run_id  architecture  condition  \\\n"}
+,{"stream_name":"stdout","time":1056.714597125,"data":"0     0.816301  135  99   2  388  B02_D_C0_seed42   DenseNet121       D-C0   \n"}
+,{"stream_name":"stdout","time":1056.714600886,"data":"\n"}
+,{"stream_name":"stdout","time":1056.714604154,"data":"   seed  \n"}
+,{"stream_name":"stdout","time":1056.714607486,"data":"0    42  \n"}
+,{"stream_name":"stdout","time":1056.714610881,"data":"\n"}
+,{"stream_name":"stdout","time":1056.714614344,"data":"[1 rows x 26 columns]\n"}
+,{"stream_name":"stderr","time":1061.914718176,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1061.914759299,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1062.077438394,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1062.077474398,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1062.693767549,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1063.002154067,"data":"[NbConvertApp] Writing 81133 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1065.28648801,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1066.309966374,"data":"[NbConvertApp] Writing 558720 bytes to __results__.html\n"}
+]

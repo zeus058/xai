@@ -1,0 +1,8 @@
+{
+  "run_id": "B04_D_P_seed3407",
+  "status": "SUCCESS",
+  "runtime_seconds": 1291.2974591255188,
+  "n_test_predictions": 624,
+  "test_auroc": 0.9728029804952881,
+  "test_accuracy": 0.844551282051282
+}

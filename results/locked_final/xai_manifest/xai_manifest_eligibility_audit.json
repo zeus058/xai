@@ -1,0 +1,8 @@
+{
+  "n_test_labels": 624,
+  "n_eligible_with_image_and_mask": 624,
+  "n_missing_images": 0,
+  "n_missing_masks": 0,
+  "missing_images_first_20": [],
+  "missing_masks_first_20": []
+}

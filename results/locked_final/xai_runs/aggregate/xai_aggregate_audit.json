@@ -1,0 +1,42 @@
+{
+    "notebook":  "KAGGLE_E05_XAI_STATISTICS_AND_FIGURES.ipynb",
+    "purpose":  "Aggregate locked XAI E01-E04 outputs into paper-ready tables and figures.",
+    "bootstrap_n":  5000,
+    "bootstrap_seed":  3407,
+    "ci_level":  0.95,
+    "input_validation_passed":  true,
+    "n_runs":  4,
+    "n_rows_total":  1536,
+    "n_unique_images":  128,
+    "source_paths":  {
+                         "E01_XAI_D_C0_DenseNet121":  "results\\locked_final\\xai_runs\\E01_XAI_D_C0_DenseNet121\\xai_metrics_by_image.csv",
+                         "E02_XAI_D_P_DenseNet121":  "results\\locked_final\\xai_runs\\E02_XAI_D_P_DenseNet121\\xai_metrics_by_image.csv",
+                         "E03_XAI_R_C0_ResNet50":  "results\\locked_final\\xai_runs\\E03_XAI_R_C0_ResNet50\\xai_metrics_by_image.csv",
+                         "E04_XAI_R_P_ResNet50":  "results\\locked_final\\xai_runs\\E04_XAI_R_P_ResNet50\\xai_metrics_by_image.csv"
+                     },
+    "outputs":  [
+                    "xai_all_by_image.csv",
+                    "xai_input_validation.csv",
+                    "xai_p_minus_c0_paired_delta_ci.csv",
+                    "xai_delta_table.csv",
+                    "xai_summary_table.csv",
+                    "xai_pointing_sign_tests.csv",
+                    "xai_summary_by_setting.csv"
+                ],
+    "figures":  [
+                    "xai_localization_metrics_bar.png",
+                    "xai_p_minus_c0_localization_delta_ci.png"
+                ],
+    "environment":  {
+                        "python":  "3.14.0",
+                        "platform":  "Windows-11-10.0.26200-SP0",
+                        "numpy":  "2.3.4",
+                        "pandas":  "2.3.3"
+                    },
+    "recommended_claim":  "The proposed CBAM + mask-guided training substantially increases Grad-CAM and Guided Grad-CAM localization inside the lung region across DenseNet121 and ResNet50.",
+    "caveats":  [
+                    "These XAI statistics support localization, not automatically causal faithfulness.",
+                    "Deletion/insertion and randomization sanity metrics should be interpreted conservatively.",
+                    "Sign tests over seed-image rows are not independent patient-level tests because the same 128 images are reused across seeds."
+                ]
+}

@@ -1,0 +1,23 @@
+{
+  "n": 624,
+  "n_normal": 234,
+  "n_pneumonia": 390,
+  "auroc": 0.9671542844619768,
+  "auprc": 0.9734585750643305,
+  "accuracy": 0.7900641025641025,
+  "balanced_accuracy": 0.7200854700854701,
+  "sensitivity": 1.0,
+  "specificity": 0.44017094017094016,
+  "precision": 0.7485604606525912,
+  "f1": 0.8562019758507134,
+  "brier": 0.17622568743880565,
+  "threshold": 0.33,
+  "tn": 103,
+  "fp": 131,
+  "fn": 0,
+  "tp": 390,
+  "architecture": "DenseNet121",
+  "seed": 3407,
+  "best_val_auroc": 0.9996298782902099,
+  "best_epoch_stage2": 5
+}

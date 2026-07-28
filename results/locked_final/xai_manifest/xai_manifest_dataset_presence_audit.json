@@ -1,0 +1,13 @@
+{
+  "required": [
+    "gate46-development-only-cxr",
+    "gate7-test-seal",
+    "cxr-lung-masks"
+  ],
+  "found": {
+    "gate46-development-only-cxr": true,
+    "gate7-test-seal": true,
+    "cxr-lung-masks": true
+  },
+  "missing": []
+}

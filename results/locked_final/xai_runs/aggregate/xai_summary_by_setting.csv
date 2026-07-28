@@ -1,0 +1,49 @@
+condition,architecture,metric,metric_label,mean,sd,n_seeds,n_seed_image_rows
+D-C0,DenseNet121,gcam_lrr_plus,Grad-CAM LRR+,0.37975190848238355,0.011135096354893709,3,384
+D-C0,DenseNet121,guided_gcam_lrr_plus,Guided Grad-CAM LRR+,0.3615801701166796,0.025931364546679308,3,384
+D-C0,DenseNet121,gcam_pointing_inside_lung,Grad-CAM pointing,0.4036458333333333,0.04009063624567878,3,384
+D-C0,DenseNet121,guided_gcam_pointing_inside_lung,Guided Grad-CAM pointing,0.21354166666666666,0.03522851369392886,3,384
+D-C0,DenseNet121,gcam_deletion_auc,Grad-CAM deletion AUC,0.7235461285369672,0.012852511531447184,3,384
+D-C0,DenseNet121,guided_gcam_deletion_auc,Guided Grad-CAM deletion AUC,0.7221461865416868,0.014818933241762903,3,384
+D-C0,DenseNet121,gcam_insertion_auc,Grad-CAM insertion AUC,0.8625433586772587,0.017252160238513333,3,384
+D-C0,DenseNet121,guided_gcam_insertion_auc,Guided Grad-CAM insertion AUC,0.8738368453458496,0.021184151882726772,3,384
+D-C0,DenseNet121,gcam_input_stability_lrr_delta,Grad-CAM stability delta,0.0016455361038297661,4.711443908923495e-05,3,384
+D-C0,DenseNet121,guided_gcam_input_stability_lrr_delta,Guided Grad-CAM stability delta,0.004326261068644258,0.00015693139288455678,3,384
+D-C0,DenseNet121,gcam_head_randomization_corr,Grad-CAM randomization corr,0.17743813833567632,0.04122768910678005,3,384
+D-C0,DenseNet121,guided_gcam_head_randomization_corr,Guided Grad-CAM randomization corr,0.43275956525799164,0.013144873778414603,3,384
+D-P,DenseNet121,gcam_lrr_plus,Grad-CAM LRR+,0.7752117615627035,0.021450768696638204,3,384
+D-P,DenseNet121,guided_gcam_lrr_plus,Guided Grad-CAM LRR+,0.7978692746120776,0.035899883737574,3,384
+D-P,DenseNet121,gcam_pointing_inside_lung,Grad-CAM pointing,0.9947916666666666,0.004510548978043951,3,384
+D-P,DenseNet121,guided_gcam_pointing_inside_lung,Guided Grad-CAM pointing,0.96875,0.027063293868263706,3,384
+D-P,DenseNet121,gcam_deletion_auc,Grad-CAM deletion AUC,0.7691844731300952,0.024300465998904737,3,384
+D-P,DenseNet121,guided_gcam_deletion_auc,Guided Grad-CAM deletion AUC,0.7449869608245608,0.01400069480130108,3,384
+D-P,DenseNet121,gcam_insertion_auc,Grad-CAM insertion AUC,0.836192159979534,0.01781326489271088,3,384
+D-P,DenseNet121,guided_gcam_insertion_auc,Guided Grad-CAM insertion AUC,0.8638163341499445,0.015369574663787109,3,384
+D-P,DenseNet121,gcam_input_stability_lrr_delta,Grad-CAM stability delta,0.0006611916335449923,0.00031880115804204024,3,384
+D-P,DenseNet121,guided_gcam_input_stability_lrr_delta,Guided Grad-CAM stability delta,0.001873974248263012,0.0010421720913750866,3,384
+D-P,DenseNet121,gcam_head_randomization_corr,Grad-CAM randomization corr,0.46600023824082587,0.036253519316701316,3,384
+D-P,DenseNet121,guided_gcam_head_randomization_corr,Guided Grad-CAM randomization corr,0.5209112153491227,0.03944091162623202,3,384
+R-C0,ResNet50,gcam_lrr_plus,Grad-CAM LRR+,0.36062106153356277,0.03122162955571115,3,384
+R-C0,ResNet50,guided_gcam_lrr_plus,Guided Grad-CAM LRR+,0.38274264286956305,0.06278668308252072,3,384
+R-C0,ResNet50,gcam_pointing_inside_lung,Grad-CAM pointing,0.20572916666666666,0.11437599612498828,3,384
+R-C0,ResNet50,guided_gcam_pointing_inside_lung,Guided Grad-CAM pointing,0.2942708333333333,0.0813150781041458,3,384
+R-C0,ResNet50,gcam_deletion_auc,Grad-CAM deletion AUC,0.707025729333037,0.03383287852738059,3,384
+R-C0,ResNet50,guided_gcam_deletion_auc,Guided Grad-CAM deletion AUC,0.7153232529730952,0.035901903162284844,3,384
+R-C0,ResNet50,gcam_insertion_auc,Grad-CAM insertion AUC,0.8254475260543921,0.032028357018557975,3,384
+R-C0,ResNet50,guided_gcam_insertion_auc,Guided Grad-CAM insertion AUC,0.8446060879074687,0.03749273905514518,3,384
+R-C0,ResNet50,gcam_input_stability_lrr_delta,Grad-CAM stability delta,0.0013795391222680828,0.00046062610473081474,3,384
+R-C0,ResNet50,guided_gcam_input_stability_lrr_delta,Guided Grad-CAM stability delta,0.00414063527393399,0.0004202589432015934,3,384
+R-C0,ResNet50,gcam_head_randomization_corr,Grad-CAM randomization corr,0.2996641449749506,0.040675867782254176,3,384
+R-C0,ResNet50,guided_gcam_head_randomization_corr,Guided Grad-CAM randomization corr,0.42029866583979314,0.0438710438936604,3,384
+R-P,ResNet50,gcam_lrr_plus,Grad-CAM LRR+,0.7616470459979737,0.0008180150658631796,3,384
+R-P,ResNet50,guided_gcam_lrr_plus,Guided Grad-CAM LRR+,0.8218076275945023,0.013970547987479457,3,384
+R-P,ResNet50,gcam_pointing_inside_lung,Grad-CAM pointing,0.9869791666666666,0.004510548978043951,3,384
+R-P,ResNet50,guided_gcam_pointing_inside_lung,Guided Grad-CAM pointing,0.9270833333333334,0.03522851369392886,3,384
+R-P,ResNet50,gcam_deletion_auc,Grad-CAM deletion AUC,0.7753595285094955,0.02781057638587644,3,384
+R-P,ResNet50,guided_gcam_deletion_auc,Guided Grad-CAM deletion AUC,0.7584712127201988,0.025559776563986482,3,384
+R-P,ResNet50,gcam_insertion_auc,Grad-CAM insertion AUC,0.8422515765738785,0.01152887981350258,3,384
+R-P,ResNet50,guided_gcam_insertion_auc,Guided Grad-CAM insertion AUC,0.8603709080156685,0.01148032242490723,3,384
+R-P,ResNet50,gcam_input_stability_lrr_delta,Grad-CAM stability delta,0.0003968518425630769,4.6532008071698e-05,3,384
+R-P,ResNet50,guided_gcam_input_stability_lrr_delta,Guided Grad-CAM stability delta,0.0017082821530195484,0.00021048719157788166,3,384
+R-P,ResNet50,gcam_head_randomization_corr,Grad-CAM randomization corr,0.444569792590604,0.025758372010780257,3,384
+R-P,ResNet50,guided_gcam_head_randomization_corr,Guided Grad-CAM randomization corr,0.4704043343681142,0.05844831312870695,3,384

@@ -1,0 +1,10 @@
+{
+  "manifest_file": "/kaggle/working/locked_outputs/xai/xai_sample_manifest_128.csv",
+  "n_rows": 128,
+  "class_counts": {
+    "0": 64,
+    "1": 64
+  },
+  "sha256": "ab1f02d26d2cc7f0db86d25f8f05bf87e9069be48c4a33ea04e7a580911ebbef",
+  "rule": "Balanced deterministic sample: 64 normal and 64 pneumonia, seed 3407; independent of model correctness/confidence."
+}
