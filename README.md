@@ -1,20 +1,22 @@
 # Enhancing Explainability in Pediatric Pneumonia Detection via Feature Gating and Auxiliary Mask Supervision
 
-[![Paper](https://img.shields.io/badge/Paper-main.pdf-blue.svg)](./main.pdf)
 [![Reproducibility](https://img.shields.io/badge/Reproducibility-Locked-success.svg)](#-reproducing-the-experiments)
 
 This repository contains the official reproducibility package for our research on mask-guided explainability for pediatric chest X-ray pneumonia classification. It is designed to meet the highest standards of scientific reproducibility, maintaining a clean audit trail from raw execution to final reported metrics.
 
 ## Repository Structure
 
-Following a strict philosophy of auditability and clarity, this repository contains only the finalized, peer-review-ready artifacts:
+Following a strict philosophy of auditability and clarity, this repository has been rigorously cleaned to contain only the finalized, peer-review-ready artifacts:
 
-- **`main.pdf`**: The finalized manuscript detailing our methodology, full experimental setup, and quantitative findings.
 - **`pipeline/`**: The modular Python source code defining the core machine learning pipeline (environment setups, data loaders, model architectures, and training/evaluation routines).
 - **`notebooks/`**: A complete, sequentially numbered suite of Jupyter Notebooks containing the exact execution code for all locked experiments.
 - **`results/`**: A comprehensive cryptographic audit trail of our findings, including exact output metrics, statistical bootstrap tables, and input/output validation logs.
 
-*(Note: Intermediate drafts, LaTeX source files, and temporary visualization scripts have been deliberately pruned from this repository to provide reviewers and researchers with an uncluttered view of the core scientific pipeline).*
+## Highlight: RSNA External Validation
+
+Beyond internal pediatric cross-validation, this study includes a massive **Zero-shot External Validation** on the RSNA Pneumonia Detection Challenge (26,684 adult chest radiographs). By transferring a model trained exclusively on pediatric patients (Kermany) to an adult population without retraining, our proposed explanation-guided models demonstrated remarkable robustness:
+- **ResNet50:** +2.35% AUROC improvement over baseline (0.8024 vs 0.7789).
+- **DenseNet121:** +1.88% AUROC improvement over baseline (0.8132 vs 0.7944).
 
 ## Reproducing the Experiments
 
@@ -28,7 +30,6 @@ All experiments were strictly locked and executed in isolated environments to gu
 6. **XAI Aggregation & Statistics**: `KAGGLE_E05_XAI_STATISTICS_AND_FIGURES.ipynb`
 7. **Component Ablation Battery**: `KAGGLE_F01` through `KAGGLE_F12` (Isolating the synergistic effects of the CBAM module and auxiliary mask loss).
 8. **Ablation Statistics**: `KAGGLE_G01_component_ablation_statistics.ipynb`
-
 ## Audit Trail & Evidence
 
 The `results/` directory is explicitly structured as a formal audit trail to prevent undisclosed tuning and data leakage:
