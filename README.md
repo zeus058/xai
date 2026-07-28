@@ -4,6 +4,11 @@ This repository contains the reproducibility package for an LNCS-style research
 study on mask-guided explainability for pediatric chest X-ray pneumonia
 classification.
 
+Canonical public repository:
+
+- https://github.com/zeus058/xai
+- Paper availability tag: `v1.0-paper`
+
 The current manuscript is:
 
 - `paper/main.tex`
