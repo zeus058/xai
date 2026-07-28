@@ -1,106 +1,44 @@
-# Pneumonia XAI Research Repository
+# Enhancing Explainability in Pediatric Pneumonia Detection via Feature Gating and Auxiliary Mask Supervision
 
-This repository contains the reproducibility package for an LNCS-style research
-study on mask-guided explainability for pediatric chest X-ray pneumonia
-classification.
+[![Paper](https://img.shields.io/badge/Paper-main.pdf-blue.svg)](./main.pdf)
+[![Reproducibility](https://img.shields.io/badge/Reproducibility-Locked-success.svg)](#-reproducing-the-experiments)
 
-Canonical public repository:
+This repository contains the official reproducibility package for our research on mask-guided explainability for pediatric chest X-ray pneumonia classification. It is designed to meet the highest standards of scientific reproducibility, maintaining a clean audit trail from raw execution to final reported metrics.
 
-- https://github.com/zeus058/xai
-- Paper availability tag: `v1.0-paper`
+## 📌 Repository Structure
 
-The current manuscript is:
+Following a strict philosophy of auditability and clarity, this repository contains only the finalized, peer-review-ready artifacts:
 
-- `paper/main.tex`
-- `paper/main.pdf`
+- **`main.pdf`**: The finalized manuscript detailing our methodology, full experimental setup, and quantitative findings.
+- **`pipeline/`**: The modular Python source code defining the core machine learning pipeline (environment setups, data loaders, model architectures, and training/evaluation routines).
+- **`notebooks/`**: A complete, sequentially numbered suite of Jupyter Notebooks containing the exact execution code for all locked experiments.
+- **`results/`**: A comprehensive cryptographic audit trail of our findings, including exact output metrics, statistical bootstrap tables, and input/output validation logs.
 
-The original reference paper used for motivation/reproduction checking is:
+*(Note: Intermediate drafts, LaTeX source files, and temporary visualization scripts have been deliberately pruned from this repository to provide reviewers and researchers with an uncluttered view of the core scientific pipeline).*
 
-- `docs/reference_paper.pdf`
+## 🚀 Reproducing the Experiments
 
-## What Is In This Repository
+All experiments were strictly locked and executed in isolated environments to guarantee reproducibility. To replicate our findings, execute the Jupyter Notebooks in the `notebooks/` directory in the following sequence:
 
-- `paper/`: LNCS manuscript source, references, paper figures, and compiled PDF.
-- `notebooks/kaggle/`: locked Kaggle notebooks used for reproduction, final
-  classification batteries, XAI batteries, and statistical aggregation.
-- `tools/`: notebook and figure generation utilities used to build the locked
-  experiments and paper-ready visualizations.
-- `pipeline/`: reusable pipeline source modules. Raw input data are not kept in
-  Git.
-- `results/locked_final/`: paper-ready locked evidence tables, logs,
-  audits, prediction CSVs, XAI metrics, and final evidence audit.
+1. **Reference Reproduction**: `KAGGLE_A01_original_reproduction.ipynb`
+2. **XAI Sample Generation**: `KAGGLE_C00_make_xai_sample_manifest_128.ipynb`
+3. **Main Classification Battery**: `KAGGLE_B01` through `KAGGLE_B12` (12 locked runs across DenseNet121 and ResNet50 with matched controls).
+4. **Statistical Validation**: `KAGGLE_D01_statistical_validation.ipynb`
+5. **Explainable AI (XAI) Battery**: `KAGGLE_E01` through `KAGGLE_E04`
+6. **XAI Aggregation & Statistics**: `KAGGLE_E05_XAI_STATISTICS_AND_FIGURES.ipynb`
+7. **Component Ablation Battery**: `KAGGLE_F01` through `KAGGLE_F12` (Isolating the synergistic effects of the CBAM module and auxiliary mask loss).
+8. **Ablation Statistics**: `KAGGLE_G01_component_ablation_statistics.ipynb`
 
-Large local-only files were removed from the repository workspace after the
-final evidence audit. This includes raw datasets, Kaggle upload staging folders,
-full archives, model checkpoints, development-only pulls, and temporary visual
-QA renders.
+## 📊 Audit Trail & Evidence
 
-## Locked Evidence Status
+The `results/` directory is explicitly structured as a formal audit trail to prevent undisclosed tuning and data leakage:
+- **`classification_statistics/`**: Contains `classification_summary_table.csv` and `paired_delta_bootstrap_ci.csv` (the exact numerical backing for the paper's results).
+- **`xai_runs/`**: Contains paired XAI deltas, sign tests, and localized attribution metrics.
+- **Audit Logs**: Cryptographic files such as `input_audit.json` and `xai_run_audit.json` securely map exact input datasets to the generated outputs, providing a transparent chain of custody for all scientific claims.
 
-The paper should cite only the locked final rerun evidence.
+## ⚙️ Data & Checkpoint Constraints
 
-Main evidence files:
+Raw Chest X-Ray (CXR) data, automatically generated lung-mask files, and large `.pt`/`.pth` model checkpoints are intentionally excluded from Git due to size limitations. Please refer to the public Kaggle dataset slugs provided within the respective notebooks to retrieve the exact, hashed data partitions used in this study.
 
-- `results/locked_final/classification_statistics/classification_summary_table.csv`
-- `results/locked_final/classification_statistics/paired_delta_bootstrap_ci.csv`
-- `results/locked_final/xai_runs/aggregate/xai_summary_table.csv`
-- `results/locked_final/xai_runs/aggregate/xai_p_minus_c0_paired_delta_ci.csv`
-- `results/locked_final/paper_evidence_audit.md`
-
-The locked protocol uses a 624-image sealed test set, three seeds per condition,
-paired C0/P comparisons for DenseNet121 and ResNet50, bootstrap confidence
-intervals, and a 128-case balanced XAI sample reused across XAI notebooks.
-
-## Reproducibility Order
-
-Run the Kaggle notebooks in this order:
-
-1. `KAGGLE_A01_original_reproduction.ipynb`
-2. `KAGGLE_C00_make_xai_sample_manifest_128.ipynb`
-3. `KAGGLE_B01` through `KAGGLE_B12` for the 12 locked classification runs
-4. `KAGGLE_D01_statistical_validation.ipynb`
-5. `KAGGLE_E01` through `KAGGLE_E04` for XAI batteries
-6. `KAGGLE_E05_XAI_STATISTICS_AND_FIGURES.ipynb`
-
-Dataset requirements and exact notebook outputs are documented in
-`notebooks/kaggle/README.md`.
-
-## Regenerate Paper Evidence Assets
-
-After the locked Kaggle outputs are present, regenerate the paper-ready figures
-and SHA-256 evidence manifests with:
-
-```bash
-python tools/regenerate_paper_assets.py
-```
-
-This CPU-only command reads from `results/locked_final/` and writes:
-
-- `paper/figures/classification_p_minus_c0_delta_ci.png`
-- `paper/figures/xai_p_minus_c0_localization_delta_ci.png`
-- `results/locked_final/paper_asset_manifest.csv`
-- `results/locked_final/paper_asset_manifest.json`
-- `results/locked_final/paper_asset_regeneration_report.md`
-
-## Component Ablation Extension
-
-The locked final paper evidence compares C0 against the full proposed
-configuration. To support component-level claims, run the additional Kaggle
-notebooks:
-
-- `notebooks/kaggle/KAGGLE_F01` through `KAGGLE_F12` for CBAM-only and
-  mask-loss-only matched runs.
-- `notebooks/kaggle/KAGGLE_G01_component_ablation_statistics.ipynb` after B01-B12
-  and F01-F12 outputs are available.
-
-The ablation separates four components per backbone and seed: C0, CBAM-only,
-mask-loss-only, and CBAM plus mask loss.
-
-## GitHub Hygiene
-
-Do not commit raw CXR data, lung-mask files, checkpoint weights, Kaggle staging
-datasets, or temporary QA render images. They are intentionally ignored in
-`.gitignore`.
-
-For a public repository, cite Kaggle dataset slugs and include checksums/manifests
-instead of uploading raw medical images or model weights directly to GitHub.
+---
+*If you find this reproducibility package or our methodology useful for your research, please consider citing our work.*
